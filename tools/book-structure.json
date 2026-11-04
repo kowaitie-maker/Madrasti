@@ -85,6 +85,62 @@
    {"part": 2, "pdf_from": 143, "pdf_to": 244, "printed_from": 129, "printed_to": 230}
   ]
  },
+ "Grade-7/Books/Science.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 117}, {"part": 2, "pdf_from": 118, "pdf_to": 227}],
+  "page_map": [
+   {"part": 1, "pdf_from": 23, "pdf_to": 116, "printed_from": 22, "printed_to": 115},
+   {"part": 2, "pdf_from": 140, "pdf_to": 225, "printed_from": 118, "printed_to": 203}
+  ]
+ },
+ "Grade-8/Books/Arabic.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 113}, {"part": 2, "pdf_from": 114, "pdf_to": 233}],
+  "page_map": [
+   {"part": 1, "pdf_from": 12, "pdf_to": 113, "printed_from": 11, "printed_to": 112},
+   {"part": 2, "pdf_from": 127, "pdf_to": 232, "printed_from": 125, "printed_to": 230}
+  ]
+ },
+ "Grade-8/Books/English-StudentBook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 84}],
+  "page_map": [{"part": 1, "pdf_from": 18, "pdf_to": 82, "printed_from": 18, "printed_to": 82}]
+ },
+ "Grade-8/Books/English-Workbook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 50}],
+  "page_map": [{"part": 1, "pdf_from": 16, "pdf_to": 48, "printed_from": 15, "printed_to": 47}]
+ },
+ "Grade-8/Books/Islamic.pdf": {
+  "numbering": "continuous",
+  "note_ar": "أرقام الصفحات في هذا الكتاب مرسومة كصور ولا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل.",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 91}, {"part": 2, "pdf_from": 92, "pdf_to": 176}],
+  "page_map": [
+   {"part": 1, "pdf_from": 12, "pdf_to": 90, "printed_from": 11, "printed_to": 89},
+   {"part": 2, "pdf_from": 102, "pdf_to": 175, "printed_from": 92, "printed_to": 165}
+  ]
+ },
+ "Grade-8/Books/Math.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 125}, {"part": 2, "pdf_from": 126, "pdf_to": 235}],
+  "page_map": [
+   {"part": 1, "pdf_from": 15, "pdf_to": 124, "printed_from": 14, "printed_to": 123},
+   {"part": 2, "pdf_from": 138, "pdf_to": 230, "printed_from": 124, "printed_to": 216}
+  ]
+ },
+ "Grade-8/Books/Science.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 117}, {"part": 2, "pdf_from": 118, "pdf_to": 239}],
+  "page_map": [
+   {"part": 1, "pdf_from": 23, "pdf_to": 116, "printed_from": 22, "printed_to": 115},
+   {"part": 2, "pdf_from": 140, "pdf_to": 237, "printed_from": 118, "printed_to": 215}
+  ]
+ },
+ "Grade-8/Books/Social-Studies.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 114}],
+  "page_map": [{"part": 1, "pdf_from": 12, "pdf_to": 113, "printed_from": 11, "printed_to": 112}]
+ },
  "Grade-7/Books/Social-Studies.pdf": {
   "numbering": "single",
   "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 106}],
