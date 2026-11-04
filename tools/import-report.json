@@ -379,6 +379,50 @@
    "split": null,
    "size": 2825552,
    "sha256": "aeae6581198326cd096c3f7229d78571e52ee053643ae99c27f57bc502626975"
+  },
+  "Grade-7/Books/Science.pdf": {
+   "source_sha256": "db16a59bc60a68095fb3ebd75fc58b6274e1600a39caf1db57ece487aac8c855",
+   "source_size": 69328520,
+   "pages": 227,
+   "split": null,
+   "size": 69328520,
+   "sha256": "db16a59bc60a68095fb3ebd75fc58b6274e1600a39caf1db57ece487aac8c855"
+  },
+  "Grade-7/Exams/Islamic-Exam-2.pdf": {
+   "source_sha256": "ef088b2a5120c93c88f885652b2a84235948fafa7b6c086367472447b833922f",
+   "source_size": 179194328,
+   "pages": 26,
+   "split": [
+    {
+     "path": "Grade-7/Exams/Islamic-Exam-2-pdfpages-001-011.pdf",
+     "pdf_from": 1,
+     "pdf_to": 11,
+     "size": 74755469,
+     "sha256": "acabba83bd280176a8b5cb19b6ace7dfb3316e1ee35919cc09756b64f56185bf"
+    },
+    {
+     "path": "Grade-7/Exams/Islamic-Exam-2-pdfpages-012-023.pdf",
+     "pdf_from": 12,
+     "pdf_to": 23,
+     "size": 92984934,
+     "sha256": "e01ec4f76bcdce2f6d3b478d48d2c5f5d6565d22b6bb3abf80b8e6d174f66e76"
+    },
+    {
+     "path": "Grade-7/Exams/Islamic-Exam-2-pdfpages-024-026.pdf",
+     "pdf_from": 24,
+     "pdf_to": 26,
+     "size": 12286365,
+     "sha256": "d26597cc5e6ed5dc3ce591a46f720513169db4d2d83c58fd70a85b47e82ef1b7"
+    }
+   ]
+  },
+  "Grade-7/Exams/Science-Exam-1.pdf": {
+   "source_sha256": "e8a5603ea571cd4fd37409db81265743d96c42b4706d4133bbd3941c73394d46",
+   "source_size": 2813630,
+   "pages": 28,
+   "split": null,
+   "size": 2813630,
+   "sha256": "e8a5603ea571cd4fd37409db81265743d96c42b4706d4133bbd3941c73394d46"
   }
  },
  "failures": []
