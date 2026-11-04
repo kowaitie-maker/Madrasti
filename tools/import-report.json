@@ -689,6 +689,190 @@
    "split": null,
    "size": 3559103,
    "sha256": "eb35ae600bc9a3112c5175c1ab650d810e1c7a96b402940ae5225cf0507bdd9f"
+  },
+  "Grade-10/Books/Arabic-Grammar.pdf": {
+   "source_sha256": "39b9936f154375ab0d8bcb27a2abdca3a6e799cc7c2b6618fde31ec61e4da38b",
+   "source_size": 21341963,
+   "pages": 114,
+   "split": null,
+   "size": 21341963,
+   "sha256": "39b9936f154375ab0d8bcb27a2abdca3a6e799cc7c2b6618fde31ec61e4da38b"
+  },
+  "Grade-10/Books/Arabic-Rhetoric.pdf": {
+   "source_sha256": "e36537a8a8ace6d981f0fb28c8e487ae63f5571b8eeacc7681b8e5e307c37c32",
+   "source_size": 26481496,
+   "pages": 82,
+   "split": null,
+   "size": 26481496,
+   "sha256": "e36537a8a8ace6d981f0fb28c8e487ae63f5571b8eeacc7681b8e5e307c37c32"
+  },
+  "Grade-10/Books/Arabic.pdf": {
+   "source_sha256": "2861ddc72c706065e64c8e0fdb0093f22e6e4a872e9475bad0618e38b7f8c2d4",
+   "source_size": 42335189,
+   "pages": 138,
+   "split": null,
+   "size": 42335189,
+   "sha256": "2861ddc72c706065e64c8e0fdb0093f22e6e4a872e9475bad0618e38b7f8c2d4"
+  },
+  "Grade-10/Books/Biology.pdf": {
+   "source_sha256": "71d5c3ce9aea21873512fff7836f64cbebe080e1609e25fd84a143a31868faa1",
+   "source_size": 86523462,
+   "pages": 146,
+   "split": null,
+   "size": 86523462,
+   "sha256": "71d5c3ce9aea21873512fff7836f64cbebe080e1609e25fd84a143a31868faa1"
+  },
+  "Grade-10/Books/Chemistry.pdf": {
+   "source_sha256": "d2d18efba2f3db00da7210d160ffef72193c8c7f964dca873cbba507f48bb17d",
+   "source_size": 12308584,
+   "pages": 162,
+   "split": null,
+   "size": 12308584,
+   "sha256": "d2d18efba2f3db00da7210d160ffef72193c8c7f964dca873cbba507f48bb17d"
+  },
+  "Grade-10/Books/English-StudentBook.pdf": {
+   "source_sha256": "b8b0d04040eaa1444a5f3b9541cd1c8ee1baf0c8017b97f001fca1da907b9427",
+   "source_size": 24824079,
+   "pages": 102,
+   "split": null,
+   "size": 24824079,
+   "sha256": "b8b0d04040eaa1444a5f3b9541cd1c8ee1baf0c8017b97f001fca1da907b9427"
+  },
+  "Grade-10/Books/English-Workbook.pdf": {
+   "source_sha256": "e027eb7b9f6bbb576ba609d9ab95c2b4ea10feca4afb5b25a015c9ddb93328a1",
+   "source_size": 18504742,
+   "pages": 62,
+   "split": null,
+   "size": 18504742,
+   "sha256": "e027eb7b9f6bbb576ba609d9ab95c2b4ea10feca4afb5b25a015c9ddb93328a1"
+  },
+  "Grade-10/Books/Islamic.pdf": {
+   "source_sha256": "deebfd2a8cc35fcedfbb4e4325a05eb4054ec21e0c643a42c1d0d316c2a45ba9",
+   "source_size": 34366174,
+   "pages": 174,
+   "split": null,
+   "size": 34366174,
+   "sha256": "deebfd2a8cc35fcedfbb4e4325a05eb4054ec21e0c643a42c1d0d316c2a45ba9"
+  },
+  "Grade-10/Books/Math.pdf": {
+   "source_sha256": "772110796defcf1888a15e63ed73b3c8617c714fad4e93ee42ead86987d3e6fa",
+   "source_size": 54914572,
+   "pages": 254,
+   "split": null,
+   "size": 54914572,
+   "sha256": "772110796defcf1888a15e63ed73b3c8617c714fad4e93ee42ead86987d3e6fa"
+  },
+  "Grade-10/Books/Physics.pdf": {
+   "source_sha256": "cb4980a384fe4589f42b2f0879624e53bc18b356e297d7a4d1f5d90fac9fc7d2",
+   "source_size": 43706764,
+   "pages": 134,
+   "split": null,
+   "size": 43706764,
+   "sha256": "cb4980a384fe4589f42b2f0879624e53bc18b356e297d7a4d1f5d90fac9fc7d2"
+  },
+  "Grade-10/Books/Social-Studies.pdf": {
+   "source_sha256": "5fa4b64cdfbfa52361fefc1c5e583d46118f3a67d9a0e205833bd5c2fd5ffcd0",
+   "source_size": 33610448,
+   "pages": 144,
+   "split": null,
+   "size": 33610448,
+   "sha256": "5fa4b64cdfbfa52361fefc1c5e583d46118f3a67d9a0e205833bd5c2fd5ffcd0"
+  },
+  "Grade-10/Exams/Arabic-Exam-1.pdf": {
+   "source_sha256": "dc15e6f48cb59ab20b3de5f6ba513f78f092fd265bff9d97323ff0c33e241767",
+   "source_size": 479029,
+   "pages": 8,
+   "split": null,
+   "size": 479029,
+   "sha256": "dc15e6f48cb59ab20b3de5f6ba513f78f092fd265bff9d97323ff0c33e241767"
+  },
+  "Grade-10/Exams/Arabic-Exam-2.pdf": {
+   "source_sha256": "7001a37f9703905b178ecbe7531201536d7e4f586b492870458c82d5f2744da9",
+   "source_size": 2671633,
+   "pages": 27,
+   "split": null,
+   "size": 2671633,
+   "sha256": "7001a37f9703905b178ecbe7531201536d7e4f586b492870458c82d5f2744da9"
+  },
+  "Grade-10/Exams/Arabic-Rhetoric-Grammar-Exam-1.pdf": {
+   "source_sha256": "7001a37f9703905b178ecbe7531201536d7e4f586b492870458c82d5f2744da9",
+   "source_size": 2671633,
+   "pages": 27,
+   "split": null,
+   "size": 2671633,
+   "sha256": "7001a37f9703905b178ecbe7531201536d7e4f586b492870458c82d5f2744da9"
+  },
+  "Grade-10/Exams/Biology-Exam-1.pdf": {
+   "source_sha256": "62f964e7558e5b5917dd8937383a0ea20a2410998d7bfc50dacad73a77eac0a3",
+   "source_size": 8271560,
+   "pages": 62,
+   "split": null,
+   "size": 8271560,
+   "sha256": "62f964e7558e5b5917dd8937383a0ea20a2410998d7bfc50dacad73a77eac0a3"
+  },
+  "Grade-10/Exams/Chemistry-Exam-1.pdf": {
+   "source_sha256": "5f4a83049e7b78265769fb700ee5998ae4b53320390253973589874f499c8259",
+   "source_size": 4333407,
+   "pages": 55,
+   "split": null,
+   "size": 4333407,
+   "sha256": "5f4a83049e7b78265769fb700ee5998ae4b53320390253973589874f499c8259"
+  },
+  "Grade-10/Exams/English-Exam-1.pdf": {
+   "source_sha256": "a139893ede669da69c78f502ef596ecfdbc15f80b234157ed7694e646f274126",
+   "source_size": 2871113,
+   "pages": 98,
+   "split": null,
+   "size": 2871113,
+   "sha256": "a139893ede669da69c78f502ef596ecfdbc15f80b234157ed7694e646f274126"
+  },
+  "Grade-10/Exams/Islamic-Exam-1.pdf": {
+   "source_sha256": "433875f7612db509d1fa723b68fd87f85be6db9e0ba04753e2c6f58e2082047f",
+   "source_size": 5840396,
+   "pages": 43,
+   "split": null,
+   "size": 5840396,
+   "sha256": "433875f7612db509d1fa723b68fd87f85be6db9e0ba04753e2c6f58e2082047f"
+  },
+  "Grade-10/Exams/Islamic-Exam-2.pdf": {
+   "source_sha256": "49469052f1cf6aa5f4833679ea7058149cfdc21d65158dd34d0ed34eeedbfe1a",
+   "source_size": 12876573,
+   "pages": 28,
+   "split": null,
+   "size": 12876573,
+   "sha256": "49469052f1cf6aa5f4833679ea7058149cfdc21d65158dd34d0ed34eeedbfe1a"
+  },
+  "Grade-10/Exams/Math-Exam-1.pdf": {
+   "source_sha256": "a7800ec650468c7030948ab7afcdb242e5c2cbd73490ab7721f285f82292b815",
+   "source_size": 713193,
+   "pages": 13,
+   "split": null,
+   "size": 713193,
+   "sha256": "a7800ec650468c7030948ab7afcdb242e5c2cbd73490ab7721f285f82292b815"
+  },
+  "Grade-10/Exams/Math-Exam-2.pdf": {
+   "source_sha256": "434da751516a5352843b168203858cda0e92351953199f1788f7c86112e199f2",
+   "source_size": 628063,
+   "pages": 20,
+   "split": null,
+   "size": 628063,
+   "sha256": "434da751516a5352843b168203858cda0e92351953199f1788f7c86112e199f2"
+  },
+  "Grade-10/Exams/Physics-Exam-1.pdf": {
+   "source_sha256": "27fb0532a9c6101a55d702056f474428a5ef4a03fc033441cad4dcaafe487e78",
+   "source_size": 6937582,
+   "pages": 57,
+   "split": null,
+   "size": 6937582,
+   "sha256": "27fb0532a9c6101a55d702056f474428a5ef4a03fc033441cad4dcaafe487e78"
+  },
+  "Grade-10/Exams/Social-Studies-Exam-1.pdf": {
+   "source_sha256": "269f1b9f51062a676e54d7b5b2963a0567c5afd93f18af57c107efc8e7a4d1bc",
+   "source_size": 6228714,
+   "pages": 40,
+   "split": null,
+   "size": 6228714,
+   "sha256": "269f1b9f51062a676e54d7b5b2963a0567c5afd93f18af57c107efc8e7a4d1bc"
   }
  },
  "failures": []
