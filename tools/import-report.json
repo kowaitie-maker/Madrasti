@@ -232,7 +232,177 @@
    "split": null,
    "size": 3203279,
    "sha256": "87b5880bb8f8d32d2cc7c94a039a6e64bd0a9f64f5dcb068a05b63aa85b06745"
+  },
+  "Grade-7/Books/Arabic.pdf": {
+   "source_sha256": "28d6ccec22a33923539c72e81a29cf8599f1102027c39048bc802bff515f0ae2",
+   "source_size": 38005914,
+   "pages": 225,
+   "split": null,
+   "size": 38005914,
+   "sha256": "28d6ccec22a33923539c72e81a29cf8599f1102027c39048bc802bff515f0ae2"
+  },
+  "Grade-7/Books/English-StudentBook.pdf": {
+   "source_sha256": "05a7cc97a9d891595210ffea3c62f388355a598d58ebb9729b2d06a2d45b2ca2",
+   "source_size": 24811670,
+   "pages": 84,
+   "split": null,
+   "size": 24811670,
+   "sha256": "05a7cc97a9d891595210ffea3c62f388355a598d58ebb9729b2d06a2d45b2ca2"
+  },
+  "Grade-7/Books/English-Workbook.pdf": {
+   "source_sha256": "2f764e7e272b31a316b4d74f06505dbf690037d70e327ba9f9004d8171190171",
+   "source_size": 8860574,
+   "pages": 50,
+   "split": null,
+   "size": 8860574,
+   "sha256": "2f764e7e272b31a316b4d74f06505dbf690037d70e327ba9f9004d8171190171"
+  },
+  "Grade-7/Books/Islamic.pdf": {
+   "source_sha256": "6051b5f0bf4cc83d8858213a8a1bb86a7d07709f78207baa5eb799dd43aef893",
+   "source_size": 53995069,
+   "pages": 174,
+   "split": null,
+   "size": 53995069,
+   "sha256": "6051b5f0bf4cc83d8858213a8a1bb86a7d07709f78207baa5eb799dd43aef893"
+  },
+  "Grade-7/Books/Math.pdf": {
+   "source_sha256": "66837f425a98681870b2c728b2a4e002812b5e3d3d73540d17331e9dfcc0ece0",
+   "source_size": 35421237,
+   "pages": 246,
+   "split": null,
+   "size": 35421237,
+   "sha256": "66837f425a98681870b2c728b2a4e002812b5e3d3d73540d17331e9dfcc0ece0"
+  },
+  "Grade-7/Books/Social-Studies.pdf": {
+   "source_sha256": "272446c85e19a68c46f90b9c9f551cc50ff3a8b9cf3b403aa778b67a0336f1a4",
+   "source_size": 55926452,
+   "pages": 106,
+   "split": null,
+   "size": 55926452,
+   "sha256": "272446c85e19a68c46f90b9c9f551cc50ff3a8b9cf3b403aa778b67a0336f1a4"
+  },
+  "Grade-7/Exams/Arabic-Exam-1.pdf": {
+   "source_sha256": "92f1d46db8346267a91f4c0b9ab5235fef6bfce615d985df4063328e9a3654e5",
+   "source_size": 301957,
+   "pages": 7,
+   "split": null,
+   "size": 301957,
+   "sha256": "92f1d46db8346267a91f4c0b9ab5235fef6bfce615d985df4063328e9a3654e5"
+  },
+  "Grade-7/Exams/Arabic-Vocabulary.pdf": {
+   "source_sha256": "d187e52a43550d9dd0ab488eec7e7bc335cdbb343d8745ee08e8e4b903bddc1b",
+   "source_size": 289933,
+   "pages": 6,
+   "split": null,
+   "size": 289933,
+   "sha256": "d187e52a43550d9dd0ab488eec7e7bc335cdbb343d8745ee08e8e4b903bddc1b"
+  },
+  "Grade-7/Exams/English-Exam-1.pdf": {
+   "source_sha256": "ca0ffa7e91f6d229911be4d7d76a4cee63911da050a9d38aa3efcda81bad3911",
+   "source_size": 423846,
+   "pages": 7,
+   "split": null,
+   "size": 423846,
+   "sha256": "ca0ffa7e91f6d229911be4d7d76a4cee63911da050a9d38aa3efcda81bad3911"
+  },
+  "Grade-7/Exams/English-Exam-2.pdf": {
+   "source_sha256": "d79b5d9ff0103b0e443ca6d85469512f6942abca2b0e942a9ed24e53f6652106",
+   "source_size": 476597,
+   "pages": 6,
+   "split": null,
+   "size": 476597,
+   "sha256": "d79b5d9ff0103b0e443ca6d85469512f6942abca2b0e942a9ed24e53f6652106"
+  },
+  "Grade-7/Exams/English-Exam-3.pdf": {
+   "source_sha256": "a83fc70b809cc1abceb2bfc45542e45347782a34d967f38cdad61499e796d5d3",
+   "source_size": 260515,
+   "pages": 5,
+   "split": null,
+   "size": 260515,
+   "sha256": "a83fc70b809cc1abceb2bfc45542e45347782a34d967f38cdad61499e796d5d3"
+  },
+  "Grade-7/Exams/English-Exam-4.pdf": {
+   "source_sha256": "0901e12c09cb2c4fb75e8b84ac56171fa119bc255cb88e6bd45677a99629e01a",
+   "source_size": 307244,
+   "pages": 6,
+   "split": null,
+   "size": 307244,
+   "sha256": "0901e12c09cb2c4fb75e8b84ac56171fa119bc255cb88e6bd45677a99629e01a"
+  },
+  "Grade-7/Exams/English-Exam-5.pdf": {
+   "source_sha256": "789112f7ff776d010d13604a45c8c9d99e5a9ad02a63e4de760cfe5d3964a0e2",
+   "source_size": 382145,
+   "pages": 7,
+   "split": null,
+   "size": 382145,
+   "sha256": "789112f7ff776d010d13604a45c8c9d99e5a9ad02a63e4de760cfe5d3964a0e2"
+  },
+  "Grade-7/Exams/English-Exam-6.pdf": {
+   "source_sha256": "a4c9349bd7ba1714426d20d214ca9f634174ae9ce9c90ec437b876a17abb31dc",
+   "source_size": 253498,
+   "pages": 6,
+   "split": null,
+   "size": 253498,
+   "sha256": "a4c9349bd7ba1714426d20d214ca9f634174ae9ce9c90ec437b876a17abb31dc"
+  },
+  "Grade-7/Exams/Islamic-Exam-1.pdf": {
+   "source_sha256": "5b603a4570d0d706c1c8a5f2ecbfba6f372b590ddfd36f24fa716a72b8b00171",
+   "source_size": 33261817,
+   "pages": 10,
+   "split": null,
+   "size": 33261817,
+   "sha256": "5b603a4570d0d706c1c8a5f2ecbfba6f372b590ddfd36f24fa716a72b8b00171"
+  },
+  "Grade-7/Exams/Islamic-Exam-3.pdf": {
+   "source_sha256": "89b2fdf93c732bbf860ced62b091e75c3b841e582d1ba426acac90d8de0621a3",
+   "source_size": 1289107,
+   "pages": 13,
+   "split": null,
+   "size": 1289107,
+   "sha256": "89b2fdf93c732bbf860ced62b091e75c3b841e582d1ba426acac90d8de0621a3"
+  },
+  "Grade-7/Exams/Math-Exam-1.pdf": {
+   "source_sha256": "63c9a55a6e908874775991608ec398b8b26d8751c23f82e39d673908e99dbd4e",
+   "source_size": 895863,
+   "pages": 14,
+   "split": null,
+   "size": 895863,
+   "sha256": "63c9a55a6e908874775991608ec398b8b26d8751c23f82e39d673908e99dbd4e"
+  },
+  "Grade-7/Exams/Math-Exam-2.pdf": {
+   "source_sha256": "9abc814200f341d062d1f93e01f4eb5f43d60ff66db9cbb508df3317dd9b6fa0",
+   "source_size": 909488,
+   "pages": 12,
+   "split": null,
+   "size": 909488,
+   "sha256": "9abc814200f341d062d1f93e01f4eb5f43d60ff66db9cbb508df3317dd9b6fa0"
+  },
+  "Grade-7/Exams/Math-Exam-3.pdf": {
+   "source_sha256": "70513d8a9719eb31601e4b1f3b0dcd174e790d75ea10ecbff06c01b8a7bf4f18",
+   "source_size": 951139,
+   "pages": 12,
+   "split": null,
+   "size": 951139,
+   "sha256": "70513d8a9719eb31601e4b1f3b0dcd174e790d75ea10ecbff06c01b8a7bf4f18"
+  },
+  "Grade-7/Exams/Math-Exam-4.pdf": {
+   "source_sha256": "c8fff1ddf3f624dd518bd593ed4c8843378ad8efb7bdfb80eed19e07f00f483f",
+   "source_size": 991363,
+   "pages": 12,
+   "split": null,
+   "size": 991363,
+   "sha256": "c8fff1ddf3f624dd518bd593ed4c8843378ad8efb7bdfb80eed19e07f00f483f"
+  },
+  "Grade-7/Exams/Social-Studies-Exam-1.pdf": {
+   "source_sha256": "aeae6581198326cd096c3f7229d78571e52ee053643ae99c27f57bc502626975",
+   "source_size": 2825552,
+   "pages": 26,
+   "split": null,
+   "size": 2825552,
+   "sha256": "aeae6581198326cd096c3f7229d78571e52ee053643ae99c27f57bc502626975"
   }
  },
- "failures": []
+ "failures": [
+  "Grade-7/Exams/Islamic-Exam-2.pdf"
+ ]
 }
