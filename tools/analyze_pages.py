@@ -22,7 +22,8 @@ PART_MARKERS = {
 
 def norm(s):
     s = unicodedata.normalize("NFKC", s).translate(DIGITS)
-    return re.sub(r"[ً-ْـ]", "", s)
+    s = re.sub("[‎‏‪-‮⁦-⁩]", "", s)  # invisible bidi marks
+    return re.sub("[ً-ْـ]", "", s)  # harakat and tatweel
 
 
 def has_marker(text, words):
@@ -46,9 +47,7 @@ def page_number(lines):
         # lone number on the line, or number at either end of the line
         for m in re.finditer(r"(?:^|\s{3,})(\d{1,3})(?:\s{3,}|$)", stripped):
             found.append(int(m.group(1)))
-        if re.fullmatch(r"\d{1,3}", stripped):
-            found.append(int(stripped))
-    return found
+    return list(dict.fromkeys(found))  # unique, keep order
 
 
 def segments(per_page):
@@ -64,7 +63,15 @@ def segments(per_page):
         else:
             segs.append({"offset": off, "pdf_from": pdf, "pdf_to": pdf,
                          "printed_from": printed, "printed_to": printed, "hits": 1})
-    return [s for s in segs if s["hits"] >= 3]
+    segs = [s for s in segs if s["hits"] >= 3]
+    merged = []  # rejoin runs that a stray misread split apart
+    for s in segs:
+        if merged and merged[-1]["offset"] == s["offset"]:
+            merged[-1].update(pdf_to=s["pdf_to"], printed_to=s["printed_to"],
+                              hits=merged[-1]["hits"] + s["hits"])
+        else:
+            merged.append(s)
+    return merged
 
 
 def analyze(path):

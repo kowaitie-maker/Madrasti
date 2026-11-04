@@ -340,6 +340,17 @@
    "grade": 7,
    "folder": "Books",
    "type": "book",
+   "subject": "Science",
+   "subject_ar": "العلوم",
+   "drive_id": "15d7O1dFny9I8RqbtxLwcL-DoMFKAyDuN",
+   "source_name": "العلوم الصف السابع.pdf",
+   "size": 69328520,
+   "path": "Grade-7/Books/Science.pdf"
+  },
+  {
+   "grade": 7,
+   "folder": "Books",
+   "type": "book",
    "subject": "Social-Studies",
    "subject_ar": "الاجتماعيات",
    "drive_id": "1APslVd0mvo1XjElDNWsaktlIYikmQ-_F",
@@ -525,6 +536,18 @@
    "size": 991363,
    "path": "Grade-7/Exams/Math-Exam-4.pdf",
    "model_no": 4
+  },
+  {
+   "grade": 7,
+   "folder": "Exams",
+   "type": "exam",
+   "subject": "Science",
+   "subject_ar": "العلوم",
+   "drive_id": "16e1_qqATBgLWvUXq2rAILhGF8f8xxy2b",
+   "source_name": "نموذج اختبار علوم السابع.pdf",
+   "size": 2813630,
+   "path": "Grade-7/Exams/Science-Exam-1.pdf",
+   "model_no": 1
   },
   {
    "grade": 7,

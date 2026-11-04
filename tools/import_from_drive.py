@@ -118,6 +118,8 @@ def push(branch="main"):
 
 def main():
     want = sys.argv[1] if len(sys.argv) > 1 else "all"
+    # start from the newest main so the report from earlier runs is kept
+    run(["git", "-C", ROOT, "pull", "-q", "--ff-only", "origin", "main"])
     manifest = json.load(open(MANIFEST))["files"]
     report = json.load(open(REPORT)) if os.path.exists(REPORT) else {"files": {}}
     os.makedirs(TMP, exist_ok=True)
