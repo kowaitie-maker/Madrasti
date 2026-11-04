@@ -46,13 +46,18 @@ def load(name):
 
 def file_entry(path, rep):
     """Direct link(s) for one logical file; split files list their pieces."""
+    extra = {}
+    if rep.get("compressed"):
+        extra["compressed_ar"] = ("الملف الأصلي كان أكبر من حد جيت هب حتى في صفحة واحدة، "
+                                  "فخُفّضت دقة صوره إلى ١٥٠ نقطة في البوصة.")
     if rep.get("split"):
         return {
             "split": True,
             "files": [{"file": p["path"], "url": RAW + p["path"], "pdf_from": p["pdf_from"],
                        "pdf_to": p["pdf_to"], "size_bytes": p["size"]} for p in rep["split"]],
+            **extra,
         }
-    return {"split": False, "file": path, "url": RAW + path, "size_bytes": rep["size"]}
+    return {"split": False, "file": path, "url": RAW + path, "size_bytes": rep["size"], **extra}
 
 
 def book_entry(item, rep, struct):
