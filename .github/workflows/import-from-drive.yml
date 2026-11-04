@@ -1,0 +1,32 @@
+name: Import from Google Drive
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/manifest.json
+      - tools/import_from_drive.py
+      - .github/workflows/import-from-drive.yml
+  workflow_dispatch:
+    inputs:
+      grade:
+        description: "Grade to import (all, 6, 7, 8, 10)"
+        default: all
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-from-drive
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF tools
+        run: sudo apt-get update -q && sudo apt-get install -y -q ghostscript poppler-utils qpdf
+      - name: Download, check and commit the PDFs
+        run: python3 tools/import_from_drive.py "${{ github.event.inputs.grade || 'all' }}"
