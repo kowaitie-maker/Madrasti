@@ -423,6 +423,272 @@
    "split": null,
    "size": 2813630,
    "sha256": "e8a5603ea571cd4fd37409db81265743d96c42b4706d4133bbd3941c73394d46"
+  },
+  "Grade-8/Books/Arabic.pdf": {
+   "source_sha256": "101b46d467b8e73e4bca1f497159c5af0d1bcabce01895f46b270a582c210f43",
+   "source_size": 28379613,
+   "pages": 233,
+   "split": null,
+   "size": 28379613,
+   "sha256": "101b46d467b8e73e4bca1f497159c5af0d1bcabce01895f46b270a582c210f43"
+  },
+  "Grade-8/Books/English-StudentBook.pdf": {
+   "source_sha256": "d841cf88bd65b31d0d1e169ff48bb2644b7acbc01aa6dfca6d6891805d53cd29",
+   "source_size": 34662694,
+   "pages": 84,
+   "split": null,
+   "size": 34662694,
+   "sha256": "d841cf88bd65b31d0d1e169ff48bb2644b7acbc01aa6dfca6d6891805d53cd29"
+  },
+  "Grade-8/Books/English-Workbook.pdf": {
+   "source_sha256": "64d7ab30aacd5b160c72a7aa0ab5ac3b1d8f7737498e5496d952b9786aa5c0ed",
+   "source_size": 10262851,
+   "pages": 50,
+   "split": null,
+   "size": 10262851,
+   "sha256": "64d7ab30aacd5b160c72a7aa0ab5ac3b1d8f7737498e5496d952b9786aa5c0ed"
+  },
+  "Grade-8/Books/Islamic.pdf": {
+   "source_sha256": "db9a5d30b2a217a58104f4b9853f2b911282412bda9d46ee82dfaaf32177a405",
+   "source_size": 35147404,
+   "pages": 176,
+   "split": null,
+   "size": 35147404,
+   "sha256": "db9a5d30b2a217a58104f4b9853f2b911282412bda9d46ee82dfaaf32177a405"
+  },
+  "Grade-8/Books/Math.pdf": {
+   "source_sha256": "41003fccdf4a204c65fe36a853cfd48136b98b41f6222ea490ccf5d69a1b0f55",
+   "source_size": 42405368,
+   "pages": 235,
+   "split": null,
+   "size": 42405368,
+   "sha256": "41003fccdf4a204c65fe36a853cfd48136b98b41f6222ea490ccf5d69a1b0f55"
+  },
+  "Grade-8/Books/Science.pdf": {
+   "source_sha256": "2a9b8c8f9a303c8c34916cd57916571462cbaa18bfbee80146620bff624f2204",
+   "source_size": 91576235,
+   "pages": 239,
+   "split": null,
+   "size": 91576235,
+   "sha256": "2a9b8c8f9a303c8c34916cd57916571462cbaa18bfbee80146620bff624f2204"
+  },
+  "Grade-8/Books/Social-Studies.pdf": {
+   "source_sha256": "9186e26ebea0dee8a1b36d9768a01d3fc7c0318b978128bafe55da7e0ac2175a",
+   "source_size": 43874946,
+   "pages": 114,
+   "split": null,
+   "size": 43874946,
+   "sha256": "9186e26ebea0dee8a1b36d9768a01d3fc7c0318b978128bafe55da7e0ac2175a"
+  },
+  "Grade-8/Exams/Arabic-Exam-1.pdf": {
+   "source_sha256": "b67bcd7dd89a3e1c89ecccbe06d0c6c1e38f8484ca3f1064c85a762b98af7c0c",
+   "source_size": 196205,
+   "pages": 7,
+   "split": null,
+   "size": 196205,
+   "sha256": "b67bcd7dd89a3e1c89ecccbe06d0c6c1e38f8484ca3f1064c85a762b98af7c0c"
+  },
+  "Grade-8/Exams/Arabic-Exam-2.pdf": {
+   "source_sha256": "d1b05ef4b4786bea9634874e77bd6b3f1bf3cd69b80999268515126b9ec94c8d",
+   "source_size": 380618,
+   "pages": 8,
+   "split": null,
+   "size": 380618,
+   "sha256": "d1b05ef4b4786bea9634874e77bd6b3f1bf3cd69b80999268515126b9ec94c8d"
+  },
+  "Grade-8/Exams/Arabic-Vocabulary.pdf": {
+   "source_sha256": "5fc222c77971f273eaf2fbd5f4100015cd2a49deea705cd8e85b25d1399e4abd",
+   "source_size": 440622,
+   "pages": 6,
+   "split": null,
+   "size": 440622,
+   "sha256": "5fc222c77971f273eaf2fbd5f4100015cd2a49deea705cd8e85b25d1399e4abd"
+  },
+  "Grade-8/Exams/English-Exam-1.pdf": {
+   "source_sha256": "48343513688e006a4eefd232e3d7e1c99d74653d21a134097ea239a884c7f2bf",
+   "source_size": 467025,
+   "pages": 6,
+   "split": null,
+   "size": 467025,
+   "sha256": "48343513688e006a4eefd232e3d7e1c99d74653d21a134097ea239a884c7f2bf"
+  },
+  "Grade-8/Exams/English-Exam-2.pdf": {
+   "source_sha256": "6c0be238f6171878aa0f6df004c31b74f878cbe72ef39d6f63e69619028a9945",
+   "source_size": 307276,
+   "pages": 6,
+   "split": null,
+   "size": 307276,
+   "sha256": "6c0be238f6171878aa0f6df004c31b74f878cbe72ef39d6f63e69619028a9945"
+  },
+  "Grade-8/Exams/English-Exam-3.pdf": {
+   "source_sha256": "775c6157c5709a63d5e69da84d03f3af5d8173b0dc282fff27e963e9dd7239d8",
+   "source_size": 284838,
+   "pages": 5,
+   "split": null,
+   "size": 284838,
+   "sha256": "775c6157c5709a63d5e69da84d03f3af5d8173b0dc282fff27e963e9dd7239d8"
+  },
+  "Grade-8/Exams/English-Exam-4.pdf": {
+   "source_sha256": "9ab5dc74b9e0fcffd0f9d0c0fbfe484acd2278e3be368cbe8e382a9bb26f95c4",
+   "source_size": 331865,
+   "pages": 6,
+   "split": null,
+   "size": 331865,
+   "sha256": "9ab5dc74b9e0fcffd0f9d0c0fbfe484acd2278e3be368cbe8e382a9bb26f95c4"
+  },
+  "Grade-8/Exams/English-Exam-5.pdf": {
+   "source_sha256": "23de0900d98b38bd0d3479ffb94fb02365eb7172b84b3f1d876d361db273a5d7",
+   "source_size": 420797,
+   "pages": 6,
+   "split": null,
+   "size": 420797,
+   "sha256": "23de0900d98b38bd0d3479ffb94fb02365eb7172b84b3f1d876d361db273a5d7"
+  },
+  "Grade-8/Exams/English-Exam-6.pdf": {
+   "source_sha256": "76fc2424357c8938b6ea0085c7479d761709ba3a9f331a19205b83f3fef669de",
+   "source_size": 465510,
+   "pages": 6,
+   "split": null,
+   "size": 465510,
+   "sha256": "76fc2424357c8938b6ea0085c7479d761709ba3a9f331a19205b83f3fef669de"
+  },
+  "Grade-8/Exams/English-Exam-7.pdf": {
+   "source_sha256": "1e004fc145b7c409ac239bdcc0784c46cd0ebbf8c5071f533cc2d79fd6c2273c",
+   "source_size": 291482,
+   "pages": 6,
+   "split": null,
+   "size": 291482,
+   "sha256": "1e004fc145b7c409ac239bdcc0784c46cd0ebbf8c5071f533cc2d79fd6c2273c"
+  },
+  "Grade-8/Exams/English-Exam-8.pdf": {
+   "source_sha256": "3dca6b99b8e5c98c4c8d464631f1a157f35fe8ffe891717744cb6917334867bb",
+   "source_size": 428950,
+   "pages": 6,
+   "split": null,
+   "size": 428950,
+   "sha256": "3dca6b99b8e5c98c4c8d464631f1a157f35fe8ffe891717744cb6917334867bb"
+  },
+  "Grade-8/Exams/Islamic-Exam-1.pdf": {
+   "source_sha256": "d03463696c0c7daebdc2f2ef85c09061203f91e921b28c232bde31fbd892758f",
+   "source_size": 16395944,
+   "pages": 5,
+   "split": null,
+   "size": 16395944,
+   "sha256": "d03463696c0c7daebdc2f2ef85c09061203f91e921b28c232bde31fbd892758f"
+  },
+  "Grade-8/Exams/Islamic-Exam-2.pdf": {
+   "source_sha256": "8efa0d9b5a220af666cbc8da044de4eabffc910a0df372c3a42a3634812bfd4f",
+   "source_size": 161235954,
+   "pages": 24,
+   "split": [
+    {
+     "path": "Grade-8/Exams/Islamic-Exam-2-pdfpages-001-009.pdf",
+     "pdf_from": 1,
+     "pdf_to": 9,
+     "size": 84945249,
+     "sha256": "433021fa1eae9e2d7d57932628d60dd2d194faacc8792c0f4becd02dd053ab7a"
+    },
+    {
+     "path": "Grade-8/Exams/Islamic-Exam-2-pdfpages-010-024.pdf",
+     "pdf_from": 10,
+     "pdf_to": 24,
+     "size": 76544579,
+     "sha256": "b81f4cc5c93cc162aa4e7b143810643d7371711fe23eb9ea8c278475f556c7d6"
+    }
+   ]
+  },
+  "Grade-8/Exams/Islamic-Exam-3.pdf": {
+   "source_sha256": "255f6c166e386775e1cf391bd7eacd66b460cc17abb598475997fb9d1af371b9",
+   "source_size": 3157347,
+   "pages": 23,
+   "split": null,
+   "size": 3157347,
+   "sha256": "255f6c166e386775e1cf391bd7eacd66b460cc17abb598475997fb9d1af371b9"
+  },
+  "Grade-8/Exams/Islamic-Exam-4.pdf": {
+   "source_sha256": "ebccd5e877797c4f78f97975ea3e10525600eecb7d908e6fc909374ab8246478",
+   "source_size": 5048518,
+   "pages": 23,
+   "split": null,
+   "size": 5048518,
+   "sha256": "ebccd5e877797c4f78f97975ea3e10525600eecb7d908e6fc909374ab8246478"
+  },
+  "Grade-8/Exams/Islamic-Exam-5.pdf": {
+   "source_sha256": "0cb6e74b027b3eebe09c53b0397aec2dc2fef3cbbd487473239c239839e1ef27",
+   "source_size": 165487270,
+   "pages": 24,
+   "split": [
+    {
+     "path": "Grade-8/Exams/Islamic-Exam-5-pdfpages-001-009.pdf",
+     "pdf_from": 1,
+     "pdf_to": 9,
+     "size": 91307001,
+     "sha256": "9bd3c48ebe5dc4600c633a92065b60b9e80b2bb76b68e7d0924027a1d7f0d3a1"
+    },
+    {
+     "path": "Grade-8/Exams/Islamic-Exam-5-pdfpages-010-024.pdf",
+     "pdf_from": 10,
+     "pdf_to": 24,
+     "size": 74439212,
+     "sha256": "b9e9f853e230254e58c303e5c19f625a2689b58afcc51454d3fee898003e2f3f"
+    }
+   ]
+  },
+  "Grade-8/Exams/Islamic-Hadiths.pdf": {
+   "source_sha256": "83cbf60372e4fa873f6982612e4290289092a08bc0a575986b8afb64f7c0b359",
+   "source_size": 669113,
+   "pages": 1,
+   "split": null,
+   "size": 669113,
+   "sha256": "83cbf60372e4fa873f6982612e4290289092a08bc0a575986b8afb64f7c0b359"
+  },
+  "Grade-8/Exams/Math-Exam-1.pdf": {
+   "source_sha256": "b444d61403c00daf544a12ca3a1373336c1f4fe396784e0a3af8a357447dba4d",
+   "source_size": 1031572,
+   "pages": 12,
+   "split": null,
+   "size": 1031572,
+   "sha256": "b444d61403c00daf544a12ca3a1373336c1f4fe396784e0a3af8a357447dba4d"
+  },
+  "Grade-8/Exams/Math-Exam-2.pdf": {
+   "source_sha256": "13dee292601f806d62c060bc6e23d2f12de656e9bc6dc677a079ea7cfc8a1d7f",
+   "source_size": 5023750,
+   "pages": 12,
+   "split": null,
+   "size": 5023750,
+   "sha256": "13dee292601f806d62c060bc6e23d2f12de656e9bc6dc677a079ea7cfc8a1d7f"
+  },
+  "Grade-8/Exams/Math-Exam-3.pdf": {
+   "source_sha256": "148dd620bf0b2c8049cc0e32a0e9a4a6cf2039b4e698a3f8d9c1a45494595e65",
+   "source_size": 4034237,
+   "pages": 12,
+   "split": null,
+   "size": 4034237,
+   "sha256": "148dd620bf0b2c8049cc0e32a0e9a4a6cf2039b4e698a3f8d9c1a45494595e65"
+  },
+  "Grade-8/Exams/Math-Exam-4.pdf": {
+   "source_sha256": "f3d29b0ecf284f45fcdb6377f5466e9d48e9b22538fe3cc3e6d604ab4ff42d60",
+   "source_size": 743223,
+   "pages": 12,
+   "split": null,
+   "size": 743223,
+   "sha256": "f3d29b0ecf284f45fcdb6377f5466e9d48e9b22538fe3cc3e6d604ab4ff42d60"
+  },
+  "Grade-8/Exams/Science-Exam-1.pdf": {
+   "source_sha256": "8cce9f49d2b007380ee3d77e10cb9020970c7103a55957b1602827bf2030cc43",
+   "source_size": 2794478,
+   "pages": 37,
+   "split": null,
+   "size": 2794478,
+   "sha256": "8cce9f49d2b007380ee3d77e10cb9020970c7103a55957b1602827bf2030cc43"
+  },
+  "Grade-8/Exams/Social-Studies-Exam-1.pdf": {
+   "source_sha256": "eb35ae600bc9a3112c5175c1ab650d810e1c7a96b402940ae5225cf0507bdd9f",
+   "source_size": 3559103,
+   "pages": 29,
+   "split": null,
+   "size": 3559103,
+   "sha256": "eb35ae600bc9a3112c5175c1ab650d810e1c7a96b402940ae5225cf0507bdd9f"
   }
  },
  "failures": []
