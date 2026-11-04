@@ -35,6 +35,9 @@ RULES = [
     (["لغتي العربية", "اللغة العربية", "عربي"], "Arabic", "اللغة العربية", None),
 ]
 
+# Oversized books are split at the first page of part 2 (verified visually).
+SPLIT_AT = {"Grade-6/Books/Science.pdf": [122]}
+
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
 
@@ -78,6 +81,9 @@ def main():
             it["path"] = f"Grade-{grade}/Exams/{code}-Exam-{n}.pdf"
             it["model_no"] = n
     items.sort(key=lambda it: (it["grade"], it["folder"], it["path"]))
+    for it in items:
+        if it["path"] in SPLIT_AT:
+            it["split_at"] = SPLIT_AT[it["path"]]
     paths = [it["path"] for it in items]
     assert len(paths) == len(set(paths)), "duplicate destination paths"
     json.dump({"source_folder": "https://drive.google.com/drive/folders/13P7yaPwDcBwPPedxMcpd-Ui2UxGd0tpX",

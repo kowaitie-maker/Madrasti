@@ -8,6 +8,7 @@ text dump of every book to the `analysis` branch for page-numbering work.
 
 Usage: python3 tools/import_from_drive.py [all|6|7|8|10]
 """
+import glob
 import hashlib
 import json
 import os
@@ -69,31 +70,78 @@ def download(item, dest):
     return False
 
 
-def split(src, dest, total):
+def extract(src, a, b, out):
+    """Copy pages a..b into out. qpdf exit 3 means "done, with warnings" (damaged
+    objects in the source); the copy is still usable, so accept it."""
+    if os.path.exists(out):
+        os.remove(out)
+    r = subprocess.run(["qpdf", src, "--pages", ".", f"{a}-{b}", "--", out],
+                       capture_output=True, text=True)
+    if r.returncode not in (0, 3) or not os.path.exists(out):
+        raise RuntimeError(f"qpdf failed on pages {a}-{b}: {r.stderr[-300:]}")
+    return os.path.getsize(out)
+
+
+def split(src, dest, total, breaks=()):
     """Split an oversized PDF into page-range pieces under LIMIT, at full quality.
 
-    Pieces are named <stem>-pdfpages-<from>-<to>.pdf next to dest.
-    Returns [{"path", "pdf_from", "pdf_to", "size", "sha256"}].
+    `breaks` are pages where a new piece must start (e.g. the first page of part 2).
+    Pieces are named <stem>-pdfpages-<from>-<to>.pdf next to dest; nothing is
+    written unless every piece fits. Returns [{"path", "pdf_from", "pdf_to", "size", "sha256"}].
     """
     stem = dest[:-4]
-    n = max(2, -(-os.path.getsize(src) // 88_000_000))
-    while n <= total:
-        bounds = [round(total * k / n) for k in range(n + 1)]
-        pieces, ok = [], True
-        for a, b in zip(bounds, bounds[1:]):
-            out = f"{stem}-pdfpages-{a + 1:03d}-{b:03d}.pdf"
-            run(["qpdf", src, "--pages", ".", f"{a + 1}-{b}", "--", out])
-            size = os.path.getsize(out)
-            pieces.append({"path": os.path.relpath(out, ROOT), "pdf_from": a + 1, "pdf_to": b,
-                           "size": size, "sha256": sha256(out)})
-            if size > LIMIT:
-                ok = False
-        if ok:
-            return pieces
-        for p in pieces:
-            os.remove(os.path.join(ROOT, p["path"]))
-        n += 1
-    raise RuntimeError(f"could not split {src} under {LIMIT} bytes")
+    probe = os.path.join(TMP, "probe.pdf")
+    bounds = [1] + sorted(b for b in breaks if 1 < b <= total) + [total + 1]
+    ranges = []
+    for seg_start, seg_next in zip(bounds, bounds[1:]):
+        start = seg_start
+        while start < seg_next:
+            # largest end page whose piece still fits (binary search)
+            lo, hi, end = start, seg_next - 1, None
+            while lo <= hi:
+                mid = (lo + hi) // 2
+                if extract(src, start, mid, probe) <= LIMIT:
+                    end, lo = mid, mid + 1
+                else:
+                    hi = mid - 1
+            if end is None:
+                raise PageTooLarge(start)  # nothing written yet
+            ranges.append((start, end))
+            start = end + 1
+    pieces = []
+    for a, b in ranges:
+        out = f"{stem}-pdfpages-{a:03d}-{b:03d}.pdf"
+        size = extract(src, a, b, out)
+        pieces.append({"path": os.path.relpath(out, ROOT), "pdf_from": a, "pdf_to": b,
+                       "size": size, "sha256": sha256(out)})
+    return pieces
+
+
+def remove_outputs(dest):
+    """Delete dest and any split pieces of it (stale or partial)."""
+    for f in [dest] + glob.glob(dest[:-4] + "-pdfpages-*.pdf"):
+        if os.path.exists(f):
+            os.remove(f)
+
+
+def guard_sizes(grade):
+    """Never commit a file GitHub would reject; return the paths removed."""
+    bad = []
+    for f in glob.glob(os.path.join(ROOT, f"Grade-{grade}", "**", "*.pdf"), recursive=True):
+        if os.path.getsize(f) > 99_000_000:
+            os.remove(f)
+            bad.append(os.path.relpath(f, ROOT))
+    return bad
+
+
+class PageTooLarge(Exception):
+    pass
+
+
+def shrink(src, out):
+    """Ghostscript downsampling, used only when a single page is over the limit."""
+    run(["gs", "-q", "-dNOPAUSE", "-dBATCH", "-dSAFER", "-sDEVICE=pdfwrite",
+         "-dCompatibilityLevel=1.6", "-dPDFSETTINGS=/ebook", f"-sOutputFile={out}", src])
 
 
 def dump_text(pdf, rel_path):
@@ -143,26 +191,46 @@ def main():
                 continue
             entry = {"source_sha256": sha256(raw), "source_size": it["size"],
                      "pages": pages(raw), "split": None}
+            remove_outputs(dest)
             try:
                 if it["type"] == "book":
                     dump_text(raw, it["path"])
                 if it["size"] > LIMIT:
-                    entry["split"] = split(raw, dest, entry["pages"])
+                    breaks = it.get("split_at", [])
+                    try:
+                        entry["split"] = split(raw, dest, entry["pages"], breaks)
+                    except PageTooLarge:
+                        small = os.path.join(TMP, "small.pdf")
+                        shrink(raw, small)
+                        if pages(small) != entry["pages"]:
+                            raise RuntimeError("page count changed while compressing")
+                        entry["compressed"] = "ghostscript-ebook-150dpi"
+                        if os.path.getsize(small) <= LIMIT:
+                            shutil.move(small, dest)
+                            entry["size"] = os.path.getsize(dest)
+                            entry["sha256"] = sha256(dest)
+                        else:
+                            entry["split"] = split(small, dest, entry["pages"], breaks)
                 else:
                     shutil.move(raw, dest)
                     entry["size"] = os.path.getsize(dest)
                     entry["sha256"] = sha256(dest)
             except Exception as exc:  # keep going; report the file as failed
                 print(f"  FAILED: {it['path']}: {exc}", flush=True)
+                remove_outputs(dest)
+                report["files"].pop(it["path"], None)
                 failures.append(it["path"])
                 continue
             report["files"][it["path"]] = entry
             if os.path.exists(raw):
                 os.remove(raw)
+        for bad in guard_sizes(grade):
+            print(f"  REMOVED oversized file before commit: {bad}", flush=True)
+            failures.append(bad)
         report["failures"] = failures
         with open(REPORT, "w") as f:
             json.dump(report, f, ensure_ascii=False, indent=1)
-        git("add", f"Grade-{grade}", "tools/import-report.json")
+        git("add", "-A", f"Grade-{grade}", "tools/import-report.json")
         r = subprocess.run(["git", "-C", ROOT, "diff", "--cached", "--quiet"])
         if r.returncode != 0:
             git("commit", "-q", "-m", f"Import Grade {grade} books and exam models from Drive" + TRAILER)

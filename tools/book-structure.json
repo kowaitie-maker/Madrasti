@@ -1,0 +1,93 @@
+{
+ "_about": "Verified parts and printed-page maps per book. Part boundaries were checked visually (the part-2 cover spread marked 2/1); page maps come from printed footers detected in the text and spot-checked against page images. offset = pdf_page - printed_page.",
+ "_gaps": [
+  "الصف العاشر: كتاب اللغة العربية المتوفر هو القسم الأول فقط."
+ ],
+ "Grade-6/Books/Arabic.pdf": {
+  "numbering": "restarts",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 141}, {"part": 2, "pdf_from": 142, "pdf_to": 265}],
+  "page_map": [
+   {"part": 1, "pdf_from": 13, "pdf_to": 141, "printed_from": 12, "printed_to": 140},
+   {"part": 2, "pdf_from": 153, "pdf_to": 264, "printed_from": 11, "printed_to": 122}
+  ]
+ },
+ "Grade-6/Books/English-StudentBook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 82}],
+  "page_map": [{"part": 1, "pdf_from": 20, "pdf_to": 80, "printed_from": 19, "printed_to": 79}]
+ },
+ "Grade-6/Books/English-Workbook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 50}],
+  "page_map": [{"part": 1, "pdf_from": 17, "pdf_to": 45, "printed_from": 16, "printed_to": 44}]
+ },
+ "Grade-6/Books/Islamic.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 83}, {"part": 2, "pdf_from": 84, "pdf_to": 176}],
+  "page_map": [
+   {"part": 1, "pdf_from": 12, "pdf_to": 82, "printed_from": 11, "printed_to": 81},
+   {"part": 2, "pdf_from": 94, "pdf_to": 175, "printed_from": 82, "printed_to": 163}
+  ]
+ },
+ "Grade-6/Books/Math.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 122}, {"part": 2, "pdf_from": 123, "pdf_to": 232}],
+  "page_map": [
+   {"part": 1, "pdf_from": 15, "pdf_to": 121, "printed_from": 14, "printed_to": 120},
+   {"part": 2, "pdf_from": 135, "pdf_to": 228, "printed_from": 121, "printed_to": 214}
+  ]
+ },
+ "Grade-6/Books/Science.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 121}, {"part": 2, "pdf_from": 122, "pdf_to": 239}],
+  "page_map": [
+   {"part": 1, "pdf_from": 23, "pdf_to": 120, "printed_from": 22, "printed_to": 119},
+   {"part": 2, "pdf_from": 144, "pdf_to": 237, "printed_from": 122, "printed_to": 215}
+  ]
+ },
+ "Grade-6/Books/Social-Studies.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 114}],
+  "page_map": [{"part": 1, "pdf_from": 10, "pdf_to": 113, "printed_from": 10, "printed_to": 113}]
+ },
+ "Grade-7/Books/Arabic.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 113}, {"part": 2, "pdf_from": 114, "pdf_to": 225}],
+  "page_map": [
+   {"part": 1, "pdf_from": 12, "pdf_to": 113, "printed_from": 11, "printed_to": 112},
+   {"part": 2, "pdf_from": 127, "pdf_to": 224, "printed_from": 125, "printed_to": 222}
+  ]
+ },
+ "Grade-7/Books/English-StudentBook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 84}],
+  "page_map": [{"part": 1, "pdf_from": 14, "pdf_to": 81, "printed_from": 13, "printed_to": 80}]
+ },
+ "Grade-7/Books/English-Workbook.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 50}],
+  "page_map": [{"part": 1, "pdf_from": 16, "pdf_to": 48, "printed_from": 15, "printed_to": 47}]
+ },
+ "Grade-7/Books/Islamic.pdf": {
+  "numbering": "continuous",
+  "note_ar": "أرقام الصفحات في هذا الكتاب مرسومة كصور ولا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل.",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 93}, {"part": 2, "pdf_from": 94, "pdf_to": 174}],
+  "page_map": [
+   {"part": 1, "pdf_from": 12, "pdf_to": 92, "printed_from": 11, "printed_to": 91},
+   {"part": 2, "pdf_from": 104, "pdf_to": 173, "printed_from": 92, "printed_to": 161}
+  ]
+ },
+ "Grade-7/Books/Math.pdf": {
+  "numbering": "continuous",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 130}, {"part": 2, "pdf_from": 131, "pdf_to": 246}],
+  "page_map": [
+   {"part": 1, "pdf_from": 15, "pdf_to": 129, "printed_from": 14, "printed_to": 128},
+   {"part": 2, "pdf_from": 143, "pdf_to": 244, "printed_from": 129, "printed_to": 230}
+  ]
+ },
+ "Grade-7/Books/Social-Studies.pdf": {
+  "numbering": "single",
+  "parts": [{"part": 1, "pdf_from": 1, "pdf_to": 106}],
+  "page_map": [{"part": 1, "pdf_from": 13, "pdf_to": 103, "printed_from": 12, "printed_to": 102}]
+ }
+}
