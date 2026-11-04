@@ -1,0 +1,2283 @@
+{
+ "name": "Madrasti — مدرستي",
+ "description_ar": "فهرس الكتب المدرسية ونماذج الاختبارات للمنهج الكويتي، مرتب حسب الصف والمادة.",
+ "updated": "2026-11-04",
+ "repository": "https://github.com/kowaitie-maker/Madrasti",
+ "raw_base_url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/",
+ "source_drive_folder": "https://drive.google.com/drive/folders/13P7yaPwDcBwPPedxMcpd-Ui2UxGd0tpX",
+ "how_to_find_a_page_ar": [
+  "اختر الصف ثم المادة ثم الكتاب من قائمة الكتب (books).",
+  "حدد القسم المطلوب (part) من قائمة الأقسام (parts).",
+  "ابحث في خريطة الصفحات (page_map) عن السطر الذي يحمل القسم نفسه ويقع الرقم المطبوع ضمن مداه.",
+  "رقم صفحة الملف = الرقم المطبوع + الإزاحة (offset) لذلك السطر.",
+  "إذا كان الكتاب مقسماً إلى عدة ملفات (split = true) فاختر الملف الذي يقع رقم صفحة الملف ضمن مداه، ورقم الصفحة داخله = رقم صفحة الملف − بداية مدى الملف + 1."
+ ],
+ "grades": {
+  "6": {
+   "name_ar": "الصف السادس",
+   "subjects": {
+    "Arabic": {
+     "name_ar": "اللغة العربية",
+     "books": [
+      {
+       "title_ar": "لغتي العربية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-6/Books/Arabic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Arabic.pdf",
+       "size_bytes": 45500749,
+       "pdf_pages": 265,
+       "source_drive_id": "1PpIPVjqCK3ezPws-0NumyDLhR9Ks_Iss",
+       "structure_verified": true,
+       "numbering": "restarts",
+       "numbering_ar": "الترقيم المطبوع يبدأ من جديد في القسم الثاني، فرقم الصفحة نفسه موجود في القسمين؛ حدد القسم دائماً قبل تحويل الرقم.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 141,
+         "printed_from": 12,
+         "printed_to": 140
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 142,
+         "pdf_to": 265,
+         "printed_from": 11,
+         "printed_to": 122
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 13,
+         "pdf_to": 141,
+         "printed_from": 12,
+         "printed_to": 140,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 153,
+         "pdf_to": 264,
+         "printed_from": 11,
+         "printed_to": 122,
+         "offset": 142
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عربي سادس",
+       "split": false,
+       "file": "Grade-6/Exams/Arabic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Arabic-Exam-1.pdf",
+       "size_bytes": 288941,
+       "pdf_pages": 7,
+       "source_drive_id": "1JcYIWhMfdT52Um7QbyiwpecOyPw4O20X"
+      },
+      {
+       "model": 2,
+       "title_ar": "ننوذج اختبار عربي سادس ٢",
+       "split": false,
+       "file": "Grade-6/Exams/Arabic-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Arabic-Exam-2.pdf",
+       "size_bytes": 767152,
+       "pdf_pages": 7,
+       "source_drive_id": "1uxzmr77B_pjNOwoRHXFMVnywKB257TVD"
+      }
+     ],
+     "resources": [
+      {
+       "kind": "vocabulary",
+       "title_ar": "عربي سادس الثروه اللغوية",
+       "split": false,
+       "file": "Grade-6/Exams/Arabic-Vocabulary.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Arabic-Vocabulary.pdf",
+       "size_bytes": 297771,
+       "pdf_pages": 6,
+       "source_drive_id": "1SlEtRVhqwbQu6HubAKsn7wHiHn4iHNR8"
+      }
+     ]
+    },
+    "English": {
+     "name_ar": "اللغة الإنجليزية",
+     "books": [
+      {
+       "title_ar": "English pearls Student's Book",
+       "role": "student_book",
+       "split": false,
+       "file": "Grade-6/Books/English-StudentBook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/English-StudentBook.pdf",
+       "size_bytes": 60711377,
+       "pdf_pages": 82,
+       "source_drive_id": "1RHnXdBlJMH0Xy7S12qOtKOe0we1HQ9BN",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 82,
+         "printed_from": 19,
+         "printed_to": 79
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 20,
+         "pdf_to": 80,
+         "printed_from": 19,
+         "printed_to": 79,
+         "offset": 1
+        }
+       ]
+      },
+      {
+       "title_ar": "English pearls Work Book",
+       "role": "workbook",
+       "split": false,
+       "file": "Grade-6/Books/English-Workbook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/English-Workbook.pdf",
+       "size_bytes": 9658979,
+       "pdf_pages": 50,
+       "source_drive_id": "186e2pXiOI6y_qQYD2g8r66X47pJX0MdY",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 50,
+         "printed_from": 15,
+         "printed_to": 44
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 16,
+         "pdf_to": 45,
+         "printed_from": 15,
+         "printed_to": 44,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار انجليزي سادس",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-1.pdf",
+       "size_bytes": 308658,
+       "pdf_pages": 6,
+       "source_drive_id": "15_BMRnDpIRoBjF2cmWt8RUi46F0g15uu"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار انجليزي سادس١",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-2.pdf",
+       "size_bytes": 428207,
+       "pdf_pages": 7,
+       "source_drive_id": "1k0iGe21wUP0u5MtC35yCpm1MloVahZMW"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار انجليزي سادس٢",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-3.pdf",
+       "size_bytes": 364123,
+       "pdf_pages": 7,
+       "source_drive_id": "1_ESjdolprAvk24bLPFkMiWrjf_TPODQU"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار انجليزي سادس٣",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-4.pdf",
+       "size_bytes": 488693,
+       "pdf_pages": 6,
+       "source_drive_id": "1oeB15ljwvBRyNo8nJTbjVJJc6rL_OmZG"
+      },
+      {
+       "model": 5,
+       "title_ar": "نموذج اختبار انجليزي سادس٤",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-5.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-5.pdf",
+       "size_bytes": 299966,
+       "pdf_pages": 6,
+       "source_drive_id": "1Rpsa6VzIKaNegX5HavVvT7LptbSank7s"
+      },
+      {
+       "model": 6,
+       "title_ar": "نموذج اختبار انجليزي سادس٥",
+       "split": false,
+       "file": "Grade-6/Exams/English-Exam-6.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/English-Exam-6.pdf",
+       "size_bytes": 503570,
+       "pdf_pages": 7,
+       "source_drive_id": "1UXsQRetuL1JTynJvnq5bNeo4vwrfMdws"
+      }
+     ],
+     "resources": []
+    },
+    "Islamic": {
+     "name_ar": "التربية الإسلامية",
+     "books": [
+      {
+       "title_ar": "التربية الإسلامية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-6/Books/Islamic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Islamic.pdf",
+       "size_bytes": 26904460,
+       "pdf_pages": 176,
+       "source_drive_id": "1ACD51UM0kddaLmtYcd8ce5sCo9D-gEwF",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 83,
+         "printed_from": 11,
+         "printed_to": 81
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 84,
+         "pdf_to": 176,
+         "printed_from": 82,
+         "printed_to": 163
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 82,
+         "printed_from": 11,
+         "printed_to": 81,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 94,
+         "pdf_to": 175,
+         "printed_from": 82,
+         "printed_to": 163,
+         "offset": 12
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار اسلاميه سادس",
+       "split": false,
+       "file": "Grade-6/Exams/Islamic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Islamic-Exam-1.pdf",
+       "size_bytes": 5938567,
+       "pdf_pages": 13,
+       "source_drive_id": "1JFq8vS3zN4tsHcn0kP3lT4n-o8kNlA-4"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار اسلاميه سادس١",
+       "split": false,
+       "file": "Grade-6/Exams/Islamic-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Islamic-Exam-2.pdf",
+       "size_bytes": 7512091,
+       "pdf_pages": 37,
+       "source_drive_id": "1aoekbP3Y9VRnk8MG6C3PuMHzPtPFslIp"
+      }
+     ],
+     "resources": []
+    },
+    "Math": {
+     "name_ar": "الرياضيات",
+     "books": [
+      {
+       "title_ar": "الرياضيات - القسم الاول والقسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-6/Books/Math.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Math.pdf",
+       "size_bytes": 37569446,
+       "pdf_pages": 232,
+       "source_drive_id": "1btuHF6NratZ8J-PQR2ZXbyRPpqao-hfI",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 122,
+         "printed_from": 14,
+         "printed_to": 120
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 123,
+         "pdf_to": 232,
+         "printed_from": 121,
+         "printed_to": 214
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 15,
+         "pdf_to": 121,
+         "printed_from": 14,
+         "printed_to": 120,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 135,
+         "pdf_to": 228,
+         "printed_from": 121,
+         "printed_to": 214,
+         "offset": 14
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار رياضيات",
+       "split": false,
+       "file": "Grade-6/Exams/Math-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Math-Exam-1.pdf",
+       "size_bytes": 1269630,
+       "pdf_pages": 12,
+       "source_drive_id": "11OQ5d1YsYt0wczee41ZL3H0Joo6R8zPC"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار رياضيات١",
+       "split": false,
+       "file": "Grade-6/Exams/Math-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Math-Exam-2.pdf",
+       "size_bytes": 799139,
+       "pdf_pages": 14,
+       "source_drive_id": "1zvsl01orzvl9nKGZa---v-RdDUm194vw"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار رياضيات٣",
+       "split": false,
+       "file": "Grade-6/Exams/Math-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Math-Exam-3.pdf",
+       "size_bytes": 933807,
+       "pdf_pages": 12,
+       "source_drive_id": "1DiJ7XEIEmuPJPLAtVWeVeYMY6qBFricD"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار رياضيات٤",
+       "split": false,
+       "file": "Grade-6/Exams/Math-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Math-Exam-4.pdf",
+       "size_bytes": 1101360,
+       "pdf_pages": 12,
+       "source_drive_id": "1-a9qiKYzMUrNjIxMlWO-xwWHLDPbagsB"
+      }
+     ],
+     "resources": []
+    },
+    "Science": {
+     "name_ar": "العلوم",
+     "books": [
+      {
+       "title_ar": "العلوم - القسم الاول و القسم الثاني",
+       "role": "textbook",
+       "split": true,
+       "files": [
+        {
+         "file": "Grade-6/Books/Science-pdfpages-001-121.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Science-pdfpages-001-121.pdf",
+         "pdf_from": 1,
+         "pdf_to": 121,
+         "size_bytes": 62144713
+        },
+        {
+         "file": "Grade-6/Books/Science-pdfpages-122-176.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Science-pdfpages-122-176.pdf",
+         "pdf_from": 122,
+         "pdf_to": 176,
+         "size_bytes": 90415632
+        },
+        {
+         "file": "Grade-6/Books/Science-pdfpages-177-239.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Science-pdfpages-177-239.pdf",
+         "pdf_from": 177,
+         "pdf_to": 239,
+         "size_bytes": 34298838
+        }
+       ],
+       "pdf_pages": 239,
+       "source_drive_id": "101k6UvtqwqRDtMDn6h9-WlOKzO-EkwxF",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 121,
+         "printed_from": 22,
+         "printed_to": 119
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 122,
+         "pdf_to": 239,
+         "printed_from": 122,
+         "printed_to": 215
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 23,
+         "pdf_to": 120,
+         "printed_from": 22,
+         "printed_to": 119,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 144,
+         "pdf_to": 237,
+         "printed_from": 122,
+         "printed_to": 215,
+         "offset": 22
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار علوم سادس",
+       "split": false,
+       "file": "Grade-6/Exams/Science-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Science-Exam-1.pdf",
+       "size_bytes": 1928994,
+       "pdf_pages": 21,
+       "source_drive_id": "1b2_7mwYF0VuNFKaZuPEssDcUxTycVwPD"
+      }
+     ],
+     "resources": []
+    },
+    "Social-Studies": {
+     "name_ar": "الاجتماعيات",
+     "books": [
+      {
+       "title_ar": "دولة الكويت ودول الخليج العربية",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-6/Books/Social-Studies.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Books/Social-Studies.pdf",
+       "size_bytes": 49049764,
+       "pdf_pages": 114,
+       "source_drive_id": "12KK6UvUhzdK-7sVH5E9GjD4g1QiZ4Ary",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 114,
+         "printed_from": 10,
+         "printed_to": 113
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 10,
+         "pdf_to": 113,
+         "printed_from": 10,
+         "printed_to": 113,
+         "offset": 0
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار اجتماعيات سادس",
+       "split": false,
+       "file": "Grade-6/Exams/Social-Studies-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-6/Exams/Social-Studies-Exam-1.pdf",
+       "size_bytes": 3203279,
+       "pdf_pages": 28,
+       "source_drive_id": "1Jr6CQkF48j7ByWfa8WQwk9X1OrF2-Oip"
+      }
+     ],
+     "resources": []
+    }
+   }
+  },
+  "7": {
+   "name_ar": "الصف السابع",
+   "subjects": {
+    "Arabic": {
+     "name_ar": "اللغة العربية",
+     "books": [
+      {
+       "title_ar": "لغتي العربية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-7/Books/Arabic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/Arabic.pdf",
+       "size_bytes": 38005914,
+       "pdf_pages": 225,
+       "source_drive_id": "1X1Vmx8tq-a0mevGUKhbZ3xHpqTboA6be",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 113,
+         "printed_from": 10,
+         "printed_to": 112
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 114,
+         "pdf_to": 225,
+         "printed_from": 125,
+         "printed_to": 222
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 11,
+         "pdf_to": 113,
+         "printed_from": 10,
+         "printed_to": 112,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 127,
+         "pdf_to": 224,
+         "printed_from": 125,
+         "printed_to": 222,
+         "offset": 2
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عربي سابع",
+       "split": false,
+       "file": "Grade-7/Exams/Arabic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Arabic-Exam-1.pdf",
+       "size_bytes": 301957,
+       "pdf_pages": 7,
+       "source_drive_id": "1XubcS_6Cd_1SiCYFU9yurc2QzhApl2Im"
+      }
+     ],
+     "resources": [
+      {
+       "kind": "vocabulary",
+       "title_ar": "الثروه اللغويه سابع عربي",
+       "split": false,
+       "file": "Grade-7/Exams/Arabic-Vocabulary.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Arabic-Vocabulary.pdf",
+       "size_bytes": 289933,
+       "pdf_pages": 6,
+       "source_drive_id": "1YKJvMo3nIonYEMvIKEKdGU2U6RHS2kDY"
+      }
+     ]
+    },
+    "English": {
+     "name_ar": "اللغة الإنجليزية",
+     "books": [
+      {
+       "title_ar": "English pearls Student's Book",
+       "role": "student_book",
+       "split": false,
+       "file": "Grade-7/Books/English-StudentBook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/English-StudentBook.pdf",
+       "size_bytes": 24811670,
+       "pdf_pages": 84,
+       "source_drive_id": "1tblTdQnWgDAZeyihL8KKxQbXWwk7z8Ck",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 84,
+         "printed_from": 13,
+         "printed_to": 80
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 14,
+         "pdf_to": 81,
+         "printed_from": 13,
+         "printed_to": 80,
+         "offset": 1
+        }
+       ]
+      },
+      {
+       "title_ar": "English pearls Work Book",
+       "role": "workbook",
+       "split": false,
+       "file": "Grade-7/Books/English-Workbook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/English-Workbook.pdf",
+       "size_bytes": 8860574,
+       "pdf_pages": 50,
+       "source_drive_id": "1kGTp8VeqwNgpFpCZJH3wgcy3Ifx4RjZT",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 50,
+         "printed_from": 15,
+         "printed_to": 47
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 16,
+         "pdf_to": 48,
+         "printed_from": 15,
+         "printed_to": 47,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار انجليزي سابع",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-1.pdf",
+       "size_bytes": 423846,
+       "pdf_pages": 7,
+       "source_drive_id": "1M22VgyKWpl6st1nMXAaLBVnmjAnihl0V"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار انجليزي سابع١",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-2.pdf",
+       "size_bytes": 476597,
+       "pdf_pages": 6,
+       "source_drive_id": "1bpaCpevVdYk_nTF1Hvmo1R8Sxavq2LWQ"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار انجليزي سابع٢",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-3.pdf",
+       "size_bytes": 260515,
+       "pdf_pages": 5,
+       "source_drive_id": "15CvV2F_zUjYLuY-YMS8GPooU2v6Tsr0Y"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار انجليزي سابع٣",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-4.pdf",
+       "size_bytes": 307244,
+       "pdf_pages": 6,
+       "source_drive_id": "1633O0-_5PMRAwEBEPSFsuUN24W-EhB8A"
+      },
+      {
+       "model": 5,
+       "title_ar": "نموذج اختبار انجليزي سابع٤",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-5.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-5.pdf",
+       "size_bytes": 382145,
+       "pdf_pages": 7,
+       "source_drive_id": "1HHA3Ni9Z9GFWZgjCpZgwPsX9YrPCMyMy"
+      },
+      {
+       "model": 6,
+       "title_ar": "نموذج اختبار انجليزي سابع٥",
+       "split": false,
+       "file": "Grade-7/Exams/English-Exam-6.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/English-Exam-6.pdf",
+       "size_bytes": 253498,
+       "pdf_pages": 6,
+       "source_drive_id": "1s6Ce1Ga-NSnTUe720clide_z8ps8VUHw"
+      }
+     ],
+     "resources": []
+    },
+    "Islamic": {
+     "name_ar": "التربية الإسلامية",
+     "books": [
+      {
+       "title_ar": "التربية الإسلامية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-7/Books/Islamic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/Islamic.pdf",
+       "size_bytes": 53995069,
+       "pdf_pages": 174,
+       "source_drive_id": "1iZ8p5s2AtKO-dznLPMxKxQhNc7ALt8Mu",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 93,
+         "printed_from": 11,
+         "printed_to": 91
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 94,
+         "pdf_to": 174,
+         "printed_from": 92,
+         "printed_to": 161
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 92,
+         "printed_from": 11,
+         "printed_to": 91,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 104,
+         "pdf_to": 173,
+         "printed_from": 92,
+         "printed_to": 161,
+         "offset": 12
+        }
+       ],
+       "note_ar": "أرقام الصفحات في هذا الكتاب مرسومة كصور ولا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل."
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار اسلاميه سابع",
+       "split": false,
+       "file": "Grade-7/Exams/Islamic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Islamic-Exam-1.pdf",
+       "size_bytes": 33261817,
+       "pdf_pages": 10,
+       "source_drive_id": "1vxSngNQXGNb1BCPHCv1IQfP8AMVGqePB"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار اسلاميه سابع١",
+       "split": true,
+       "files": [
+        {
+         "file": "Grade-7/Exams/Islamic-Exam-2-pdfpages-001-011.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Islamic-Exam-2-pdfpages-001-011.pdf",
+         "pdf_from": 1,
+         "pdf_to": 11,
+         "size_bytes": 74755469
+        },
+        {
+         "file": "Grade-7/Exams/Islamic-Exam-2-pdfpages-012-023.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Islamic-Exam-2-pdfpages-012-023.pdf",
+         "pdf_from": 12,
+         "pdf_to": 23,
+         "size_bytes": 92984934
+        },
+        {
+         "file": "Grade-7/Exams/Islamic-Exam-2-pdfpages-024-026.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Islamic-Exam-2-pdfpages-024-026.pdf",
+         "pdf_from": 24,
+         "pdf_to": 26,
+         "size_bytes": 12286365
+        }
+       ],
+       "pdf_pages": 26,
+       "source_drive_id": "1PcqRPaz96FWh0oq_wOhFy9f5zAk3ERPB"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار اسلاميه سابع٣",
+       "split": false,
+       "file": "Grade-7/Exams/Islamic-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Islamic-Exam-3.pdf",
+       "size_bytes": 1289107,
+       "pdf_pages": 13,
+       "source_drive_id": "1ijp1c2Wh1SOGBRroe8OMR_zXbhgxAfrS"
+      }
+     ],
+     "resources": []
+    },
+    "Math": {
+     "name_ar": "الرياضيات",
+     "books": [
+      {
+       "title_ar": "الرياضيات - القسم الاول والقسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-7/Books/Math.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/Math.pdf",
+       "size_bytes": 35421237,
+       "pdf_pages": 246,
+       "source_drive_id": "1omrYKUuD00rmy-zcrA9cV09bcISTla6U",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 130,
+         "printed_from": 14,
+         "printed_to": 128
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 131,
+         "pdf_to": 246,
+         "printed_from": 129,
+         "printed_to": 230
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 15,
+         "pdf_to": 129,
+         "printed_from": 14,
+         "printed_to": 128,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 143,
+         "pdf_to": 244,
+         "printed_from": 129,
+         "printed_to": 230,
+         "offset": 14
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار رياضيات سابع",
+       "split": false,
+       "file": "Grade-7/Exams/Math-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Math-Exam-1.pdf",
+       "size_bytes": 895863,
+       "pdf_pages": 14,
+       "source_drive_id": "1hVz8Jc9m4TSl3q-glZLz_3YbzjseaU2A"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار رياضيات سابع١",
+       "split": false,
+       "file": "Grade-7/Exams/Math-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Math-Exam-2.pdf",
+       "size_bytes": 909488,
+       "pdf_pages": 12,
+       "source_drive_id": "1eIqrss9Q3vouw8wchR3PXBLZMuWBWbP2"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار رياضيات سابع٢",
+       "split": false,
+       "file": "Grade-7/Exams/Math-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Math-Exam-3.pdf",
+       "size_bytes": 951139,
+       "pdf_pages": 12,
+       "source_drive_id": "1exjC-26cJJt6WmGQlA1KwXBnON6kd_9s"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار رياضيات سابع٣",
+       "split": false,
+       "file": "Grade-7/Exams/Math-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Math-Exam-4.pdf",
+       "size_bytes": 991363,
+       "pdf_pages": 12,
+       "source_drive_id": "1pcjb-F4gynnhG0ro2mN7HwqMDFeTJPUA"
+      }
+     ],
+     "resources": []
+    },
+    "Science": {
+     "name_ar": "العلوم",
+     "books": [
+      {
+       "title_ar": "العلوم الصف السابع",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-7/Books/Science.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/Science.pdf",
+       "size_bytes": 69328520,
+       "pdf_pages": 227,
+       "source_drive_id": "15d7O1dFny9I8RqbtxLwcL-DoMFKAyDuN",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 117,
+         "printed_from": 22,
+         "printed_to": 115
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 118,
+         "pdf_to": 227,
+         "printed_from": 118,
+         "printed_to": 203
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 23,
+         "pdf_to": 116,
+         "printed_from": 22,
+         "printed_to": 115,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 140,
+         "pdf_to": 225,
+         "printed_from": 118,
+         "printed_to": 203,
+         "offset": 22
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار علوم السابع",
+       "split": false,
+       "file": "Grade-7/Exams/Science-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Science-Exam-1.pdf",
+       "size_bytes": 2813630,
+       "pdf_pages": 28,
+       "source_drive_id": "16e1_qqATBgLWvUXq2rAILhGF8f8xxy2b"
+      }
+     ],
+     "resources": []
+    },
+    "Social-Studies": {
+     "name_ar": "الاجتماعيات",
+     "books": [
+      {
+       "title_ar": "دولة الكويت و الوطن العربي",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-7/Books/Social-Studies.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Books/Social-Studies.pdf",
+       "size_bytes": 55926452,
+       "pdf_pages": 106,
+       "source_drive_id": "1APslVd0mvo1XjElDNWsaktlIYikmQ-_F",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 106,
+         "printed_from": 12,
+         "printed_to": 102
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 13,
+         "pdf_to": 103,
+         "printed_from": 12,
+         "printed_to": 102,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار اجتماعيات سابع",
+       "split": false,
+       "file": "Grade-7/Exams/Social-Studies-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-7/Exams/Social-Studies-Exam-1.pdf",
+       "size_bytes": 2825552,
+       "pdf_pages": 26,
+       "source_drive_id": "1yZjGULa59zAxjnjY-zmMJpWA-lcI0y1c"
+      }
+     ],
+     "resources": []
+    }
+   }
+  },
+  "8": {
+   "name_ar": "الصف الثامن",
+   "subjects": {
+    "Arabic": {
+     "name_ar": "اللغة العربية",
+     "books": [
+      {
+       "title_ar": "لغتي العربية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-8/Books/Arabic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/Arabic.pdf",
+       "size_bytes": 28379613,
+       "pdf_pages": 233,
+       "source_drive_id": "1PymE-dNaj4QpHSCQvRKWPwVKVhtcCQGu",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 113,
+         "printed_from": 11,
+         "printed_to": 112
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 114,
+         "pdf_to": 233,
+         "printed_from": 125,
+         "printed_to": 230
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 113,
+         "printed_from": 11,
+         "printed_to": 112,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 127,
+         "pdf_to": 232,
+         "printed_from": 125,
+         "printed_to": 230,
+         "offset": 2
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن عربي",
+       "split": false,
+       "file": "Grade-8/Exams/Arabic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Arabic-Exam-1.pdf",
+       "size_bytes": 196205,
+       "pdf_pages": 7,
+       "source_drive_id": "1yQ5f7mrCn4cs0dGF2-snwSme7tHK_rdB"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار ثامن عربي١",
+       "split": false,
+       "file": "Grade-8/Exams/Arabic-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Arabic-Exam-2.pdf",
+       "size_bytes": 380618,
+       "pdf_pages": 8,
+       "source_drive_id": "1F4CNO_8jVdk7YUWZ72bYvlhQ5teXR8MJ"
+      }
+     ],
+     "resources": [
+      {
+       "kind": "vocabulary",
+       "title_ar": "الثروه اللغويه عربي ثامن",
+       "split": false,
+       "file": "Grade-8/Exams/Arabic-Vocabulary.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Arabic-Vocabulary.pdf",
+       "size_bytes": 440622,
+       "pdf_pages": 6,
+       "source_drive_id": "1KBzSj5m36tJGyYQ-2V2Q6utKrbWjNpFB"
+      }
+     ]
+    },
+    "English": {
+     "name_ar": "اللغة الإنجليزية",
+     "books": [
+      {
+       "title_ar": "English pearls Student's Book",
+       "role": "student_book",
+       "split": false,
+       "file": "Grade-8/Books/English-StudentBook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/English-StudentBook.pdf",
+       "size_bytes": 34662694,
+       "pdf_pages": 84,
+       "source_drive_id": "1EdQt5NFoXOKNNaA0S5-UDGdBHsSZHHGf",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 84,
+         "printed_from": 18,
+         "printed_to": 82
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 18,
+         "pdf_to": 82,
+         "printed_from": 18,
+         "printed_to": 82,
+         "offset": 0
+        }
+       ]
+      },
+      {
+       "title_ar": "English pearls Work Book",
+       "role": "workbook",
+       "split": false,
+       "file": "Grade-8/Books/English-Workbook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/English-Workbook.pdf",
+       "size_bytes": 10262851,
+       "pdf_pages": 50,
+       "source_drive_id": "1atzgTi-3apTPyu4RLv6wR8UurzAMigoV",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 50,
+         "printed_from": 15,
+         "printed_to": 47
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 16,
+         "pdf_to": 48,
+         "printed_from": 15,
+         "printed_to": 47,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن انجليزي",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-1.pdf",
+       "size_bytes": 467025,
+       "pdf_pages": 6,
+       "source_drive_id": "1qYqqgL7g6IeMKxKaK96p8AP-hA4aFv4R"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار ثامن انجليزي١",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-2.pdf",
+       "size_bytes": 307276,
+       "pdf_pages": 6,
+       "source_drive_id": "1oA6VV5owIyuLSZavFwTccvBIrankV-pl"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار ثامن انجليزي٢",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-3.pdf",
+       "size_bytes": 284838,
+       "pdf_pages": 5,
+       "source_drive_id": "1KgbgMqkCwtkaS4Fn-gTXyktG2G7pjQ8w"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار ثامن انجليزي٣",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-4.pdf",
+       "size_bytes": 331865,
+       "pdf_pages": 6,
+       "source_drive_id": "10pWQaLdcr7x3EtJBSvPKEXcq-MdBrBKu"
+      },
+      {
+       "model": 5,
+       "title_ar": "نموذج اختبار ثامن انجليزي٤",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-5.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-5.pdf",
+       "size_bytes": 420797,
+       "pdf_pages": 6,
+       "source_drive_id": "1UVs9poiqCA4GeunZJhEFs2ok5HxJiUtF"
+      },
+      {
+       "model": 6,
+       "title_ar": "نموذج اختبار ثامن انجليزي٥",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-6.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-6.pdf",
+       "size_bytes": 465510,
+       "pdf_pages": 6,
+       "source_drive_id": "1tfsPmvo6IU1YCtCKmdGwyLsHeBGkd2_K"
+      },
+      {
+       "model": 7,
+       "title_ar": "نموذج اختبار ثامن انجليزي٦",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-7.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-7.pdf",
+       "size_bytes": 291482,
+       "pdf_pages": 6,
+       "source_drive_id": "1__3mcoWFg97HA4VWQJBaoSp_FrDCqEuZ"
+      },
+      {
+       "model": 8,
+       "title_ar": "نموذج اختبار ثامن انجليزي٧",
+       "split": false,
+       "file": "Grade-8/Exams/English-Exam-8.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/English-Exam-8.pdf",
+       "size_bytes": 428950,
+       "pdf_pages": 6,
+       "source_drive_id": "1lIwCklo8OeWar2JQo3Cb_nSf8yDqEdA0"
+      }
+     ],
+     "resources": []
+    },
+    "Islamic": {
+     "name_ar": "التربية الإسلامية",
+     "books": [
+      {
+       "title_ar": "التربية الإسلامية - القسم الأول و القسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-8/Books/Islamic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/Islamic.pdf",
+       "size_bytes": 35147404,
+       "pdf_pages": 176,
+       "source_drive_id": "16z8FHXMrTJZ0LNWyyvrXGNer5mZvwJ8k",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 91,
+         "printed_from": 11,
+         "printed_to": 89
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 92,
+         "pdf_to": 176,
+         "printed_from": 92,
+         "printed_to": 165
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 90,
+         "printed_from": 11,
+         "printed_to": 89,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 102,
+         "pdf_to": 175,
+         "printed_from": 92,
+         "printed_to": 165,
+         "offset": 10
+        }
+       ],
+       "note_ar": "أرقام الصفحات في هذا الكتاب مرسومة كصور ولا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل."
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن اسلاميه",
+       "split": false,
+       "file": "Grade-8/Exams/Islamic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-1.pdf",
+       "size_bytes": 16395944,
+       "pdf_pages": 5,
+       "source_drive_id": "1n9_26PTG3s97X4mqlVXhMwSyJZxraeUx"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار ثامن اسلاميه١",
+       "split": true,
+       "files": [
+        {
+         "file": "Grade-8/Exams/Islamic-Exam-2-pdfpages-001-009.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-2-pdfpages-001-009.pdf",
+         "pdf_from": 1,
+         "pdf_to": 9,
+         "size_bytes": 84945249
+        },
+        {
+         "file": "Grade-8/Exams/Islamic-Exam-2-pdfpages-010-024.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-2-pdfpages-010-024.pdf",
+         "pdf_from": 10,
+         "pdf_to": 24,
+         "size_bytes": 76544579
+        }
+       ],
+       "pdf_pages": 24,
+       "source_drive_id": "1jQOIxrfF9yVubYA8AgTAepxtw7rtfUlz"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار ثامن اسلاميه٣",
+       "split": false,
+       "file": "Grade-8/Exams/Islamic-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-3.pdf",
+       "size_bytes": 3157347,
+       "pdf_pages": 23,
+       "source_drive_id": "1R5k9_RCSz72bGufeCtY2CWxB_1MQSDvT"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار ثامن اسلاميه٤",
+       "split": false,
+       "file": "Grade-8/Exams/Islamic-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-4.pdf",
+       "size_bytes": 5048518,
+       "pdf_pages": 23,
+       "source_drive_id": "12IZxpH1a3L1s2DpnysjtFp1Rtyq0KJWi"
+      },
+      {
+       "model": 5,
+       "title_ar": "نموذج اختبار ثامن اسلاميه٥",
+       "split": true,
+       "files": [
+        {
+         "file": "Grade-8/Exams/Islamic-Exam-5-pdfpages-001-009.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-5-pdfpages-001-009.pdf",
+         "pdf_from": 1,
+         "pdf_to": 9,
+         "size_bytes": 91307001
+        },
+        {
+         "file": "Grade-8/Exams/Islamic-Exam-5-pdfpages-010-024.pdf",
+         "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Exam-5-pdfpages-010-024.pdf",
+         "pdf_from": 10,
+         "pdf_to": 24,
+         "size_bytes": 74439212
+        }
+       ],
+       "pdf_pages": 24,
+       "source_drive_id": "1ipprrhji05a2tSD5OlWKrXhTLjmz9keI"
+      }
+     ],
+     "resources": [
+      {
+       "kind": "required_hadiths",
+       "title_ar": "الأحاديث المقررة",
+       "split": false,
+       "file": "Grade-8/Exams/Islamic-Hadiths.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Islamic-Hadiths.pdf",
+       "size_bytes": 669113,
+       "pdf_pages": 1,
+       "source_drive_id": "1ZuEpqSkjCNQrxNqELegF0E372Hkv6I7i"
+      }
+     ]
+    },
+    "Math": {
+     "name_ar": "الرياضيات",
+     "books": [
+      {
+       "title_ar": "الرياضيات - القسم الاول والقسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-8/Books/Math.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/Math.pdf",
+       "size_bytes": 42405368,
+       "pdf_pages": 235,
+       "source_drive_id": "1750UeNbff4CAzBgiTyYQIxValcxYtGkU",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 125,
+         "printed_from": 14,
+         "printed_to": 123
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 126,
+         "pdf_to": 235,
+         "printed_from": 124,
+         "printed_to": 216
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 15,
+         "pdf_to": 124,
+         "printed_from": 14,
+         "printed_to": 123,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 138,
+         "pdf_to": 230,
+         "printed_from": 124,
+         "printed_to": 216,
+         "offset": 14
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن رياضيات",
+       "split": false,
+       "file": "Grade-8/Exams/Math-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Math-Exam-1.pdf",
+       "size_bytes": 1031572,
+       "pdf_pages": 12,
+       "source_drive_id": "1nZQefJxogrK0BaTm7knZaKK1liPDE4Pt"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار ثامن رياضيات١",
+       "split": false,
+       "file": "Grade-8/Exams/Math-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Math-Exam-2.pdf",
+       "size_bytes": 5023750,
+       "pdf_pages": 12,
+       "source_drive_id": "1JTNmG04yNzdGilkvvqTR5qxPATTyzQlI"
+      },
+      {
+       "model": 3,
+       "title_ar": "نموذج اختبار ثامن رياضيات٢",
+       "split": false,
+       "file": "Grade-8/Exams/Math-Exam-3.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Math-Exam-3.pdf",
+       "size_bytes": 4034237,
+       "pdf_pages": 12,
+       "source_drive_id": "1wXplnYKiXAqaxIUeivpWd1kZEBblST_M"
+      },
+      {
+       "model": 4,
+       "title_ar": "نموذج اختبار ثامن رياضيات٣",
+       "split": false,
+       "file": "Grade-8/Exams/Math-Exam-4.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Math-Exam-4.pdf",
+       "size_bytes": 743223,
+       "pdf_pages": 12,
+       "source_drive_id": "1V3lB__jbDyLR_-1KSNMI1zqSpoJAQegm"
+      }
+     ],
+     "resources": []
+    },
+    "Science": {
+     "name_ar": "العلوم",
+     "books": [
+      {
+       "title_ar": "العلوم - القسم الاول والقسم الثاني",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-8/Books/Science.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/Science.pdf",
+       "size_bytes": 91576235,
+       "pdf_pages": 239,
+       "source_drive_id": "1L-LK7tyofhS-2206URG_wFVK_67wQbdB",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 117,
+         "printed_from": 22,
+         "printed_to": 115
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 118,
+         "pdf_to": 239,
+         "printed_from": 118,
+         "printed_to": 215
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 23,
+         "pdf_to": 116,
+         "printed_from": 22,
+         "printed_to": 115,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 140,
+         "pdf_to": 237,
+         "printed_from": 118,
+         "printed_to": 215,
+         "offset": 22
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن علوم",
+       "split": false,
+       "file": "Grade-8/Exams/Science-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Science-Exam-1.pdf",
+       "size_bytes": 2794478,
+       "pdf_pages": 37,
+       "source_drive_id": "1t0oYSi7hVUICoaehoDBmynJOKo1p2hJR"
+      }
+     ],
+     "resources": []
+    },
+    "Social-Studies": {
+     "name_ar": "الاجتماعيات",
+     "books": [
+      {
+       "title_ar": "الكويت والعالم الاسلامي",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-8/Books/Social-Studies.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Books/Social-Studies.pdf",
+       "size_bytes": 43874946,
+       "pdf_pages": 114,
+       "source_drive_id": "1ThPNAK3gbVvT46xzz5vt1hSr1sMhhu1c",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 114,
+         "printed_from": 11,
+         "printed_to": 112
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 113,
+         "printed_from": 11,
+         "printed_to": 112,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار ثامن اجتماعيات",
+       "split": false,
+       "file": "Grade-8/Exams/Social-Studies-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-8/Exams/Social-Studies-Exam-1.pdf",
+       "size_bytes": 3559103,
+       "pdf_pages": 29,
+       "source_drive_id": "1XIs_dDh5nR1NRWywtRmaox18Mv1TENxa"
+      }
+     ],
+     "resources": []
+    }
+   }
+  },
+  "10": {
+   "name_ar": "الصف العاشر",
+   "subjects": {
+    "Arabic": {
+     "name_ar": "اللغة العربية",
+     "books": [
+      {
+       "title_ar": "قواعد النحو والصرف",
+       "role": "grammar_book",
+       "split": false,
+       "file": "Grade-10/Books/Arabic-Grammar.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Arabic-Grammar.pdf",
+       "size_bytes": 21341963,
+       "pdf_pages": 114,
+       "source_drive_id": "14-I5_9Bt6MTtANRXBBCNtjuVRNP01Mtu",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 114,
+         "printed_from": 11,
+         "printed_to": 112
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 113,
+         "printed_from": 11,
+         "printed_to": 112,
+         "offset": 1
+        }
+       ],
+       "note_ar": "أرقام الصفحات لا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل."
+      },
+      {
+       "title_ar": "فنون البلاغة",
+       "role": "rhetoric_book",
+       "split": false,
+       "file": "Grade-10/Books/Arabic-Rhetoric.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Arabic-Rhetoric.pdf",
+       "size_bytes": 26481496,
+       "pdf_pages": 82,
+       "source_drive_id": "12kF8PfhgWkVU2CawO7A9-mazAkU1QTH4",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 82,
+         "printed_from": 11,
+         "printed_to": 80
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 81,
+         "printed_from": 11,
+         "printed_to": 80,
+         "offset": 1
+        }
+       ],
+       "note_ar": "أرقام الصفحات لا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل."
+      },
+      {
+       "title_ar": "اللغة العربية - القسم الأول",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Arabic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Arabic.pdf",
+       "size_bytes": 42335189,
+       "pdf_pages": 138,
+       "source_drive_id": "1QOfAp4Q3sgLjcUn-aeCVe6G9n00sLll7",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 138,
+         "printed_from": 14,
+         "printed_to": 134
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 15,
+         "pdf_to": 135,
+         "printed_from": 14,
+         "printed_to": 134,
+         "offset": 1
+        }
+       ],
+       "note_ar": "كتاب الفصل الدراسي الأول في مجلد واحد حسب صفحة العنوان. أرقام الصفحات لا تظهر في النص المستخرج؛ الخريطة متحقق منها بقراءة أرقام التذييل."
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر عربي",
+       "split": false,
+       "file": "Grade-10/Exams/Arabic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Arabic-Exam-1.pdf",
+       "size_bytes": 479029,
+       "pdf_pages": 8,
+       "source_drive_id": "1JzxFWA-5oh5jCUBmLyNkIGbU3OovLcNX"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار عاشر عربي١",
+       "split": false,
+       "file": "Grade-10/Exams/Arabic-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Arabic-Exam-2.pdf",
+       "size_bytes": 2671633,
+       "pdf_pages": 27,
+       "source_drive_id": "1twaV3Li9b6zX1WqJ2wrfjB5J-nW78vAE",
+       "same_content_as": [
+        "Grade-10/Exams/Arabic-Rhetoric-Grammar-Exam-1.pdf"
+       ]
+      },
+      {
+       "model": 1,
+       "title_ar": "اختبار فنون البلاغة و قواعد النحو والصرف",
+       "topic": "rhetoric_grammar_exam",
+       "split": false,
+       "file": "Grade-10/Exams/Arabic-Rhetoric-Grammar-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Arabic-Rhetoric-Grammar-Exam-1.pdf",
+       "size_bytes": 2671633,
+       "pdf_pages": 27,
+       "source_drive_id": "1MctAIQ2ghuVKTPBtpgcWNc7vMdVPo6U_",
+       "same_content_as": [
+        "Grade-10/Exams/Arabic-Exam-2.pdf"
+       ]
+      }
+     ],
+     "resources": []
+    },
+    "Biology": {
+     "name_ar": "الأحياء",
+     "books": [
+      {
+       "title_ar": "أحياء - كتاب الطالب",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Biology.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Biology.pdf",
+       "size_bytes": 86523462,
+       "pdf_pages": 146,
+       "source_drive_id": "1kaVxdsGUUXfphkH9VW4JH20bw57rlhU3",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 146,
+         "printed_from": 16,
+         "printed_to": 143
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 17,
+         "pdf_to": 144,
+         "printed_from": 16,
+         "printed_to": 143,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر احياء",
+       "split": false,
+       "file": "Grade-10/Exams/Biology-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Biology-Exam-1.pdf",
+       "size_bytes": 8271560,
+       "pdf_pages": 62,
+       "source_drive_id": "1J5ANByg32O0OEw_Z04xPbqTN3x8DijtQ"
+      }
+     ],
+     "resources": []
+    },
+    "Chemistry": {
+     "name_ar": "الكيمياء",
+     "books": [
+      {
+       "title_ar": "الكيمياء - كتاب الطالب",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Chemistry.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Chemistry.pdf",
+       "size_bytes": 12308584,
+       "pdf_pages": 162,
+       "source_drive_id": "1Ke5NjP8kShb8ekYVid8Di1kuV46jGsqv",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 162,
+         "printed_from": 11,
+         "printed_to": 160
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 161,
+         "printed_from": 11,
+         "printed_to": 160,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر الكيمياء",
+       "split": false,
+       "file": "Grade-10/Exams/Chemistry-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Chemistry-Exam-1.pdf",
+       "size_bytes": 4333407,
+       "pdf_pages": 55,
+       "source_drive_id": "11-z34ifw-W1SrsMYPK_CY0Viqrn9IGUe"
+      }
+     ],
+     "resources": []
+    },
+    "English": {
+     "name_ar": "اللغة الإنجليزية",
+     "books": [
+      {
+       "title_ar": "English Origin to outlook Student's Book",
+       "role": "student_book",
+       "split": false,
+       "file": "Grade-10/Books/English-StudentBook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/English-StudentBook.pdf",
+       "size_bytes": 24824079,
+       "pdf_pages": 102,
+       "source_drive_id": "1zaQINtQRibXIbYq4Rasjf4EynaJfYJSb",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 102,
+         "printed_from": 16,
+         "printed_to": 99
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 17,
+         "pdf_to": 100,
+         "printed_from": 16,
+         "printed_to": 99,
+         "offset": 1
+        }
+       ]
+      },
+      {
+       "title_ar": "English Origin to outlook Work Book",
+       "role": "workbook",
+       "split": false,
+       "file": "Grade-10/Books/English-Workbook.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/English-Workbook.pdf",
+       "size_bytes": 18504742,
+       "pdf_pages": 62,
+       "source_drive_id": "1NAd7dWBY9xnRAjDpcSGOQw0smleusZtD",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 62,
+         "printed_from": 12,
+         "printed_to": 58
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 13,
+         "pdf_to": 59,
+         "printed_from": 12,
+         "printed_to": 58,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر انجليزي",
+       "split": false,
+       "file": "Grade-10/Exams/English-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/English-Exam-1.pdf",
+       "size_bytes": 2871113,
+       "pdf_pages": 98,
+       "source_drive_id": "1Z7d946UIg32hGSv1T_UVHbg0thm4JWgu"
+      }
+     ],
+     "resources": []
+    },
+    "Islamic": {
+     "name_ar": "التربية الإسلامية",
+     "books": [
+      {
+       "title_ar": "التربية الاسلامية",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Islamic.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Islamic.pdf",
+       "size_bytes": 34366174,
+       "pdf_pages": 174,
+       "source_drive_id": "137b_ijXWNdqoynl0kUeA5cTxHFmgUOGd",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 174,
+         "printed_from": 10,
+         "printed_to": 172
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 11,
+         "pdf_to": 173,
+         "printed_from": 10,
+         "printed_to": 172,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر اسلاميه",
+       "split": false,
+       "file": "Grade-10/Exams/Islamic-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Islamic-Exam-1.pdf",
+       "size_bytes": 5840396,
+       "pdf_pages": 43,
+       "source_drive_id": "1gP1HABKe-0oY1_5q5gy1o-7TpwhC1Hu4"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار عاشر اسلاميه١",
+       "split": false,
+       "file": "Grade-10/Exams/Islamic-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Islamic-Exam-2.pdf",
+       "size_bytes": 12876573,
+       "pdf_pages": 28,
+       "source_drive_id": "1uxJyOcHKkdybfqbZe5FXpIi65ijsb-f5"
+      }
+     ],
+     "resources": []
+    },
+    "Math": {
+     "name_ar": "الرياضيات",
+     "books": [
+      {
+       "title_ar": "الرياضيات",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Math.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Math.pdf",
+       "size_bytes": 54914572,
+       "pdf_pages": 254,
+       "source_drive_id": "1wJU13GUDRY1bkFfBS-5bCUreCeKs6WIe",
+       "structure_verified": true,
+       "numbering": "continuous",
+       "numbering_ar": "الترقيم المطبوع متصل بين القسمين: القسم الثاني يكمل من حيث انتهى الأول، فرقم الصفحة المطبوع لا يتكرر في الكتاب.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "القسم الأول",
+         "pdf_from": 1,
+         "pdf_to": 134,
+         "printed_from": 11,
+         "printed_to": 132
+        },
+        {
+         "part": 2,
+         "name_ar": "القسم الثاني",
+         "pdf_from": 135,
+         "pdf_to": 254,
+         "printed_from": 142,
+         "printed_to": 250
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 133,
+         "printed_from": 11,
+         "printed_to": 132,
+         "offset": 1
+        },
+        {
+         "part": 2,
+         "pdf_from": 145,
+         "pdf_to": 253,
+         "printed_from": 142,
+         "printed_to": 250,
+         "offset": 3
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر رياضيات",
+       "split": false,
+       "file": "Grade-10/Exams/Math-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Math-Exam-1.pdf",
+       "size_bytes": 713193,
+       "pdf_pages": 13,
+       "source_drive_id": "1tUsBghcymbOnPMHVA8n4YmMmaGZw8qcy"
+      },
+      {
+       "model": 2,
+       "title_ar": "نموذج اختبار عاشر رياضيات١",
+       "split": false,
+       "file": "Grade-10/Exams/Math-Exam-2.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Math-Exam-2.pdf",
+       "size_bytes": 628063,
+       "pdf_pages": 20,
+       "source_drive_id": "1nRB72CYEkrJi_TLg3sZ-8Ymi4Qu2guwB"
+      }
+     ],
+     "resources": []
+    },
+    "Physics": {
+     "name_ar": "الفيزياء",
+     "books": [
+      {
+       "title_ar": "الفيزيا",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Physics.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Physics.pdf",
+       "size_bytes": 43706764,
+       "pdf_pages": 134,
+       "source_drive_id": "1jZvJ40XFtur1l57yValkUCHQcXdK_s31",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 134,
+         "printed_from": 16,
+         "printed_to": 129
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 17,
+         "pdf_to": 130,
+         "printed_from": 16,
+         "printed_to": 129,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر الفيزيا",
+       "split": false,
+       "file": "Grade-10/Exams/Physics-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Physics-Exam-1.pdf",
+       "size_bytes": 6937582,
+       "pdf_pages": 57,
+       "source_drive_id": "1sNDxjwrOWYFjdjU6OhApg-bWje_tv8f2"
+      }
+     ],
+     "resources": []
+    },
+    "Social-Studies": {
+     "name_ar": "الاجتماعيات",
+     "books": [
+      {
+       "title_ar": "اجتماعيات دولة الكويت",
+       "role": "textbook",
+       "split": false,
+       "file": "Grade-10/Books/Social-Studies.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Books/Social-Studies.pdf",
+       "size_bytes": 33610448,
+       "pdf_pages": 144,
+       "source_drive_id": "1Zg7QZOe1lgk2hpFMIszytRIfIciLjXv2",
+       "structure_verified": true,
+       "numbering": "single",
+       "numbering_ar": "كتاب من قسم واحد. رقم صفحة الملف = رقم الصفحة المطبوع + الإزاحة.",
+       "parts": [
+        {
+         "part": 1,
+         "name_ar": "الكتاب كاملاً",
+         "pdf_from": 1,
+         "pdf_to": 144,
+         "printed_from": 11,
+         "printed_to": 141
+        }
+       ],
+       "page_map": [
+        {
+         "part": 1,
+         "pdf_from": 12,
+         "pdf_to": 142,
+         "printed_from": 11,
+         "printed_to": 141,
+         "offset": 1
+        }
+       ]
+      }
+     ],
+     "exams": [
+      {
+       "model": 1,
+       "title_ar": "نموذج اختبار عاشر اجتماعيات دولة الكويت",
+       "split": false,
+       "file": "Grade-10/Exams/Social-Studies-Exam-1.pdf",
+       "url": "https://raw.githubusercontent.com/kowaitie-maker/Madrasti/main/Grade-10/Exams/Social-Studies-Exam-1.pdf",
+       "size_bytes": 6228714,
+       "pdf_pages": 40,
+       "source_drive_id": "1Rrh9duc1ASMFN5aa77K-uw8nQPZWOZNK"
+      }
+     ],
+     "resources": []
+    }
+   }
+  }
+ },
+ "not_imported": [],
+ "not_in_source_folder_ar": []
+}

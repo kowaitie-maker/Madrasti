@@ -84,10 +84,14 @@ def analyze(path):
         t = norm(text)
         lines = t.splitlines()
         cands = page_number(lines)
+        nonblank = [l for l in lines if l.strip()]
+        footer = page_number(nonblank[-3:]) if len(nonblank) > 3 else cands
         printed = None
         # prefer the candidate that continues the previous page's number
         if prev is not None and (prev + 1) in cands:
             printed = prev + 1
+        elif len(footer) == 1:
+            printed = footer[0]  # a lone footer number beats unit numbers in the header
         elif cands:
             printed = cands[-1] if len(cands) == 1 else None
             if printed is None:

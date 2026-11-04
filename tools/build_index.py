@@ -100,6 +100,9 @@ def main():
     manifest = load("manifest.json")["files"]
     report = load("import-report.json")["files"]
     structure = load("book-structure.json")
+    by_hash = {}
+    for path, rep in report.items():
+        by_hash.setdefault(rep["source_sha256"], []).append(path)
     grades = {}
     missing = []
     for item in manifest:
@@ -108,6 +111,7 @@ def main():
             missing.append({"grade": item["grade"], "source_name": item["source_name"],
                             "reason_ar": "تعذر نقل الملف"})
             continue
+        twins = [p for p in by_hash[rep["source_sha256"]] if p != item["path"]]
         subject, role = GROUP.get(item["subject"], (item["subject"], None))
         g = grades.setdefault(str(item["grade"]), {"name_ar": GRADES_AR[item["grade"]], "subjects": {}})
         s = g["subjects"].setdefault(subject, {"name_ar": SUBJECT_AR[subject], "books": [],
@@ -120,6 +124,7 @@ def main():
                 **({"topic": role} if role else {}),
                 **file_entry(item["path"], rep), "pdf_pages": rep["pages"],
                 "source_drive_id": item["drive_id"],
+                **({"same_content_as": twins} if twins else {}),
             })
         else:
             s["resources"].append({
