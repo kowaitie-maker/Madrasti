@@ -2,8 +2,8 @@
 
 Runs inside GitHub Actions (see .github/workflows/import-from-drive.yml).
 For every entry in tools/manifest.json it downloads the file by its Drive ID,
-checks the size and PDF header, compresses files that exceed GitHub's 100 MB
-limit, commits each grade separately and pushes. It also writes a per-page
+checks the size and PDF header, splits files that exceed GitHub's 100 MB
+limit into page-range pieces, commits each grade separately and pushes. It also writes a per-page
 text dump of every book to the `analysis` branch for page-numbering work.
 
 Usage: python3 tools/import_from_drive.py [all|6|7|8|10]
@@ -69,23 +69,31 @@ def download(item, dest):
     return False
 
 
-def compress(src, dest):
-    """Shrink an oversized PDF with Ghostscript; returns the settings used."""
-    attempts = [
-        ("ebook-150dpi", ["-dPDFSETTINGS=/ebook"]),
-        ("120dpi", ["-dPDFSETTINGS=/ebook", "-dDownsampleColorImages=true",
-                    "-dColorImageResolution=120", "-dDownsampleGrayImages=true",
-                    "-dGrayImageResolution=120"]),
-        ("100dpi", ["-dPDFSETTINGS=/ebook", "-dDownsampleColorImages=true",
-                    "-dColorImageResolution=100", "-dDownsampleGrayImages=true",
-                    "-dGrayImageResolution=100"]),
-    ]
-    for label, opts in attempts:
-        run(["gs", "-q", "-dNOPAUSE", "-dBATCH", "-dSAFER", "-sDEVICE=pdfwrite",
-             "-dCompatibilityLevel=1.6", *opts, f"-sOutputFile={dest}", src])
-        if os.path.getsize(dest) <= LIMIT:
-            return label
-    raise RuntimeError(f"could not compress {src} under {LIMIT} bytes")
+def split(src, dest, total):
+    """Split an oversized PDF into page-range pieces under LIMIT, at full quality.
+
+    Pieces are named <stem>-pdfpages-<from>-<to>.pdf next to dest.
+    Returns [{"path", "pdf_from", "pdf_to", "size", "sha256"}].
+    """
+    stem = dest[:-4]
+    n = max(2, -(-os.path.getsize(src) // 88_000_000))
+    while n <= total:
+        bounds = [round(total * k / n) for k in range(n + 1)]
+        pieces, ok = [], True
+        for a, b in zip(bounds, bounds[1:]):
+            out = f"{stem}-pdfpages-{a + 1:03d}-{b:03d}.pdf"
+            run(["qpdf", src, "--pages", ".", f"{a + 1}-{b}", "--", out])
+            size = os.path.getsize(out)
+            pieces.append({"path": os.path.relpath(out, ROOT), "pdf_from": a + 1, "pdf_to": b,
+                           "size": size, "sha256": sha256(out)})
+            if size > LIMIT:
+                ok = False
+        if ok:
+            return pieces
+        for p in pieces:
+            os.remove(os.path.join(ROOT, p["path"]))
+        n += 1
+    raise RuntimeError(f"could not split {src} under {LIMIT} bytes")
 
 
 def dump_text(pdf, rel_path):
@@ -132,18 +140,21 @@ def main():
                 print(f"  FAILED: {it['path']}", flush=True)
                 continue
             entry = {"source_sha256": sha256(raw), "source_size": it["size"],
-                     "pages": pages(raw), "compressed": None}
-            if it["size"] > LIMIT:
-                entry["compressed"] = compress(raw, dest)
-                if pages(dest) != entry["pages"]:
-                    raise RuntimeError(f"page count changed while compressing {it['path']}")
-            else:
-                shutil.move(raw, dest)
-            entry["size"] = os.path.getsize(dest)
-            entry["sha256"] = sha256(dest)
+                     "pages": pages(raw), "split": None}
+            try:
+                if it["type"] == "book":
+                    dump_text(raw, it["path"])
+                if it["size"] > LIMIT:
+                    entry["split"] = split(raw, dest, entry["pages"])
+                else:
+                    shutil.move(raw, dest)
+                    entry["size"] = os.path.getsize(dest)
+                    entry["sha256"] = sha256(dest)
+            except Exception as exc:  # keep going; report the file as failed
+                print(f"  FAILED: {it['path']}: {exc}", flush=True)
+                failures.append(it["path"])
+                continue
             report["files"][it["path"]] = entry
-            if it["type"] == "book":
-                dump_text(dest, it["path"])
             if os.path.exists(raw):
                 os.remove(raw)
         report["failures"] = failures
