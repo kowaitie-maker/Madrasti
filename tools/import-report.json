@@ -46,46 +46,25 @@
    "pages": 239,
    "split": [
     {
-     "path": "Grade-6/Books/Science-pdfpages-001-040.pdf",
+     "path": "Grade-6/Books/Science-pdfpages-001-121.pdf",
      "pdf_from": 1,
-     "pdf_to": 40,
-     "size": 14501595,
-     "sha256": "9b12d833d38c511e71fb5c233a1fe2319ce91e816442c9306c3350a736ef44e8"
+     "pdf_to": 121,
+     "size": 62144713,
+     "sha256": "5cca9b408d0cb4d1f56f3028559313002e9ca344cb8430993913c786cad054e8"
     },
     {
-     "path": "Grade-6/Books/Science-pdfpages-041-080.pdf",
-     "pdf_from": 41,
-     "pdf_to": 80,
-     "size": 29609069,
-     "sha256": "4f4ecdeca76f037b920599eeec1d19cff4b5c67323448aab706b02ddd013522b"
+     "path": "Grade-6/Books/Science-pdfpages-122-176.pdf",
+     "pdf_from": 122,
+     "pdf_to": 176,
+     "size": 90415632,
+     "sha256": "20a22b8526b9df82ce01f9cd67274c6858c668ca67ccaa8f111a6407c85ca6d6"
     },
     {
-     "path": "Grade-6/Books/Science-pdfpages-081-120.pdf",
-     "pdf_from": 81,
-     "pdf_to": 120,
-     "size": 21469032,
-     "sha256": "e18992944f8f0ba09c021f25e00959e9ea2ecaa0b9062f3185e95435a7697c6d"
-    },
-    {
-     "path": "Grade-6/Books/Science-pdfpages-121-159.pdf",
-     "pdf_from": 121,
-     "pdf_to": 159,
-     "size": 25709837,
-     "sha256": "ddfb2a6be937ba6bb0dd2867c9c01c00cc912ddcaaedde13d1eb71c8a7264999"
-    },
-    {
-     "path": "Grade-6/Books/Science-pdfpages-160-199.pdf",
-     "pdf_from": 160,
-     "pdf_to": 199,
-     "size": 87309363,
-     "sha256": "84acb4a2ee7fac42493ce48132fca16a230945cc6a05082861f9ec45e62077b6"
-    },
-    {
-     "path": "Grade-6/Books/Science-pdfpages-200-239.pdf",
-     "pdf_from": 200,
+     "path": "Grade-6/Books/Science-pdfpages-177-239.pdf",
+     "pdf_from": 177,
      "pdf_to": 239,
-     "size": 12691692,
-     "sha256": "a64434f8dbdf1c516c37640ce23e71aa753bf4bcd8d0ebc41f44b64ffccd0a5a"
+     "size": 34298838,
+     "sha256": "25ce1f56efb61eeca87f4b0d72714b5bf44e9aa1dda24cf6634e58f0709bb13f"
     }
    ]
   },
@@ -402,7 +381,5 @@
    "sha256": "aeae6581198326cd096c3f7229d78571e52ee053643ae99c27f57bc502626975"
   }
  },
- "failures": [
-  "Grade-7/Exams/Islamic-Exam-2.pdf"
- ]
+ "failures": []
 }
